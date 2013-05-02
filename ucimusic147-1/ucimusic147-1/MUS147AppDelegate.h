@@ -1,9 +1,9 @@
 //
 //  MUS147AppDelegate.h
-//  ucimusic147-1
+//  Music147_2013
 //
-//  Created by Kojiro Umezaki on 4/27/13.
-//  Copyright (c) 2013 UCI Music 147. All rights reserved.
+//  Created by Kojiro Umezaki on 4/5/13.
+//  Copyright (c) 2013 Kojiro Umezaki. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>

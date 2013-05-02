@@ -1,16 +1,22 @@
 //
 //  MUS147AppDelegate.m
-//  ucimusic147-1
+//  Music147_2013
 //
-//  Created by Kojiro Umezaki on 4/27/13.
-//  Copyright (c) 2013 UCI Music 147. All rights reserved.
+//  Created by Kojiro Umezaki on 4/5/13.
+//  Copyright (c) 2013 Kojiro Umezaki. All rights reserved.
 //
 
 #import "MUS147AppDelegate.h"
 
 #import "MUS147ViewController.h"
 
+#import "MUS147AQPlayer.h"
+extern MUS147AQPlayer *aqp;
+
 @implementation MUS147AppDelegate
+
+@synthesize window;
+@synthesize viewController;
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
@@ -19,6 +25,10 @@
     self.viewController = [[MUS147ViewController alloc] initWithNibName:@"MUS147ViewController" bundle:nil];
     self.window.rootViewController = self.viewController;
     [self.window makeKeyAndVisible];
+    
+    aqp = [[MUS147AQPlayer alloc] init];
+    [aqp start];
+    
     return YES;
 }
 

@@ -18,6 +18,13 @@
 		21A4B823172C27F100E1FACA /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 21A4B822172C27F100E1FACA /* Default-568h@2x.png */; };
 		21A4B826172C27F100E1FACA /* MUS147ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21A4B825172C27F100E1FACA /* MUS147ViewController.m */; };
 		21A4B829172C27F100E1FACA /* MUS147ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 21A4B827172C27F100E1FACA /* MUS147ViewController.xib */; };
+		21F3A9271732044D00CDD5EC /* MUS147AQPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 21F3A91D1732044D00CDD5EC /* MUS147AQPlayer.m */; };
+		21F3A9281732044D00CDD5EC /* MUS147View.m in Sources */ = {isa = PBXBuildFile; fileRef = 21F3A91F1732044D00CDD5EC /* MUS147View.m */; };
+		21F3A9291732044D00CDD5EC /* MUS147Voice_Sample.m in Sources */ = {isa = PBXBuildFile; fileRef = 21F3A9211732044D00CDD5EC /* MUS147Voice_Sample.m */; };
+		21F3A92A1732044D00CDD5EC /* MUS147Voice_Synth.m in Sources */ = {isa = PBXBuildFile; fileRef = 21F3A9231732044D00CDD5EC /* MUS147Voice_Synth.m */; };
+		21F3A92B1732044D00CDD5EC /* MUS147Voice.m in Sources */ = {isa = PBXBuildFile; fileRef = 21F3A9251732044D00CDD5EC /* MUS147Voice.m */; };
+		21F3A92C1732044D00CDD5EC /* Music147.aif in Resources */ = {isa = PBXBuildFile; fileRef = 21F3A9261732044D00CDD5EC /* Music147.aif */; };
+		21F3A92F1732046B00CDD5EC /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21F3A92E1732046B00CDD5EC /* AudioToolbox.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +44,18 @@
 		21A4B824172C27F100E1FACA /* MUS147ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MUS147ViewController.h; sourceTree = "<group>"; };
 		21A4B825172C27F100E1FACA /* MUS147ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MUS147ViewController.m; sourceTree = "<group>"; };
 		21A4B828172C27F100E1FACA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MUS147ViewController.xib; sourceTree = "<group>"; };
+		21F3A91C1732044D00CDD5EC /* MUS147AQPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUS147AQPlayer.h; sourceTree = "<group>"; };
+		21F3A91D1732044D00CDD5EC /* MUS147AQPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUS147AQPlayer.m; sourceTree = "<group>"; };
+		21F3A91E1732044D00CDD5EC /* MUS147View.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUS147View.h; sourceTree = "<group>"; };
+		21F3A91F1732044D00CDD5EC /* MUS147View.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUS147View.m; sourceTree = "<group>"; };
+		21F3A9201732044D00CDD5EC /* MUS147Voice_Sample.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUS147Voice_Sample.h; sourceTree = "<group>"; };
+		21F3A9211732044D00CDD5EC /* MUS147Voice_Sample.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUS147Voice_Sample.m; sourceTree = "<group>"; };
+		21F3A9221732044D00CDD5EC /* MUS147Voice_Synth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUS147Voice_Synth.h; sourceTree = "<group>"; };
+		21F3A9231732044D00CDD5EC /* MUS147Voice_Synth.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUS147Voice_Synth.m; sourceTree = "<group>"; };
+		21F3A9241732044D00CDD5EC /* MUS147Voice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUS147Voice.h; sourceTree = "<group>"; };
+		21F3A9251732044D00CDD5EC /* MUS147Voice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUS147Voice.m; sourceTree = "<group>"; };
+		21F3A9261732044D00CDD5EC /* Music147.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = Music147.aif; sourceTree = "<group>"; };
+		21F3A92E1732046B00CDD5EC /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				21F3A92F1732046B00CDD5EC /* AudioToolbox.framework in Frameworks */,
 				21A4B80D172C27F000E1FACA /* UIKit.framework in Frameworks */,
 				21A4B80F172C27F000E1FACA /* Foundation.framework in Frameworks */,
 				21A4B811172C27F000E1FACA /* CoreGraphics.framework in Frameworks */,
@@ -73,6 +93,7 @@
 		21A4B80B172C27F000E1FACA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				21F3A92E1732046B00CDD5EC /* AudioToolbox.framework */,
 				21A4B80C172C27F000E1FACA /* UIKit.framework */,
 				21A4B80E172C27F000E1FACA /* Foundation.framework */,
 				21A4B810172C27F000E1FACA /* CoreGraphics.framework */,
@@ -83,6 +104,16 @@
 		21A4B812172C27F000E1FACA /* ucimusic147-1 */ = {
 			isa = PBXGroup;
 			children = (
+				21F3A91C1732044D00CDD5EC /* MUS147AQPlayer.h */,
+				21F3A91D1732044D00CDD5EC /* MUS147AQPlayer.m */,
+				21F3A91E1732044D00CDD5EC /* MUS147View.h */,
+				21F3A91F1732044D00CDD5EC /* MUS147View.m */,
+				21F3A9201732044D00CDD5EC /* MUS147Voice_Sample.h */,
+				21F3A9211732044D00CDD5EC /* MUS147Voice_Sample.m */,
+				21F3A9221732044D00CDD5EC /* MUS147Voice_Synth.h */,
+				21F3A9231732044D00CDD5EC /* MUS147Voice_Synth.m */,
+				21F3A9241732044D00CDD5EC /* MUS147Voice.h */,
+				21F3A9251732044D00CDD5EC /* MUS147Voice.m */,
 				21A4B81B172C27F000E1FACA /* MUS147AppDelegate.h */,
 				21A4B81C172C27F100E1FACA /* MUS147AppDelegate.m */,
 				21A4B824172C27F100E1FACA /* MUS147ViewController.h */,
@@ -96,6 +127,7 @@
 		21A4B813172C27F000E1FACA /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				21F3A9261732044D00CDD5EC /* Music147.aif */,
 				21A4B814172C27F000E1FACA /* ucimusic147-1-Info.plist */,
 				21A4B815172C27F000E1FACA /* InfoPlist.strings */,
 				21A4B818172C27F000E1FACA /* main.m */,
@@ -164,6 +196,7 @@
 				21A4B821172C27F100E1FACA /* Default@2x.png in Resources */,
 				21A4B823172C27F100E1FACA /* Default-568h@2x.png in Resources */,
 				21A4B829172C27F100E1FACA /* MUS147ViewController.xib in Resources */,
+				21F3A92C1732044D00CDD5EC /* Music147.aif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -177,6 +210,11 @@
 				21A4B819172C27F000E1FACA /* main.m in Sources */,
 				21A4B81D172C27F100E1FACA /* MUS147AppDelegate.m in Sources */,
 				21A4B826172C27F100E1FACA /* MUS147ViewController.m in Sources */,
+				21F3A9271732044D00CDD5EC /* MUS147AQPlayer.m in Sources */,
+				21F3A9281732044D00CDD5EC /* MUS147View.m in Sources */,
+				21F3A9291732044D00CDD5EC /* MUS147Voice_Sample.m in Sources */,
+				21F3A92A1732044D00CDD5EC /* MUS147Voice_Synth.m in Sources */,
+				21F3A92B1732044D00CDD5EC /* MUS147Voice.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,6 +333,7 @@
 				21A4B82E172C27F100E1FACA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
