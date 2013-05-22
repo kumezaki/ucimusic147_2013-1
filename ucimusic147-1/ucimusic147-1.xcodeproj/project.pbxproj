@@ -25,6 +25,93 @@
 		21F3A92B1732044D00CDD5EC /* MUS147Voice.m in Sources */ = {isa = PBXBuildFile; fileRef = 21F3A9251732044D00CDD5EC /* MUS147Voice.m */; };
 		21F3A92C1732044D00CDD5EC /* Music147.aif in Resources */ = {isa = PBXBuildFile; fileRef = 21F3A9261732044D00CDD5EC /* Music147.aif */; };
 		21F3A92F1732046B00CDD5EC /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21F3A92E1732046B00CDD5EC /* AudioToolbox.framework */; };
+		831722DD174D923200B59359 /* 1 F1.aif in Resources */ = {isa = PBXBuildFile; fileRef = 83172286174D923200B59359 /* 1 F1.aif */; };
+		831722DE174D923200B59359 /* 10 D2.aif in Resources */ = {isa = PBXBuildFile; fileRef = 83172287174D923200B59359 /* 10 D2.aif */; };
+		831722DF174D923200B59359 /* 11 D#2.aif in Resources */ = {isa = PBXBuildFile; fileRef = 83172288174D923200B59359 /* 11 D#2.aif */; };
+		831722E0174D923200B59359 /* 12 E2.aif in Resources */ = {isa = PBXBuildFile; fileRef = 83172289174D923200B59359 /* 12 E2.aif */; };
+		831722E1174D923200B59359 /* 13 F2.aif in Resources */ = {isa = PBXBuildFile; fileRef = 8317228A174D923200B59359 /* 13 F2.aif */; };
+		831722E2174D923200B59359 /* 14 AttackNoize.aif in Resources */ = {isa = PBXBuildFile; fileRef = 8317228B174D923200B59359 /* 14 AttackNoize.aif */; };
+		831722E3174D923200B59359 /* 2 F#1.aif in Resources */ = {isa = PBXBuildFile; fileRef = 8317228C174D923200B59359 /* 2 F#1.aif */; };
+		831722E4174D923200B59359 /* 3 G1.aif in Resources */ = {isa = PBXBuildFile; fileRef = 8317228D174D923200B59359 /* 3 G1.aif */; };
+		831722E5174D923200B59359 /* 4 G#1.aif in Resources */ = {isa = PBXBuildFile; fileRef = 8317228E174D923200B59359 /* 4 G#1.aif */; };
+		831722E6174D923200B59359 /* 5 A1.aif in Resources */ = {isa = PBXBuildFile; fileRef = 8317228F174D923200B59359 /* 5 A1.aif */; };
+		831722E7174D923200B59359 /* 6 A#1.aif in Resources */ = {isa = PBXBuildFile; fileRef = 83172290174D923200B59359 /* 6 A#1.aif */; };
+		831722E8174D923200B59359 /* 7 B1.aif in Resources */ = {isa = PBXBuildFile; fileRef = 83172291174D923200B59359 /* 7 B1.aif */; };
+		831722E9174D923200B59359 /* 8 C2.aif in Resources */ = {isa = PBXBuildFile; fileRef = 83172292174D923200B59359 /* 8 C2.aif */; };
+		831722EA174D923200B59359 /* 9 C#2.aif in Resources */ = {isa = PBXBuildFile; fileRef = 83172293174D923200B59359 /* 9 C#2.aif */; };
+		831722EB174D923200B59359 /* VEC3 Bassdrums Breakbeat 21.aif in Resources */ = {isa = PBXBuildFile; fileRef = 83172294174D923200B59359 /* VEC3 Bassdrums Breakbeat 21.aif */; };
+		831722EC174D923200B59359 /* VEC3 Bassdrums Breakbeat 22.aif in Resources */ = {isa = PBXBuildFile; fileRef = 83172295174D923200B59359 /* VEC3 Bassdrums Breakbeat 22.aif */; };
+		831722ED174D923200B59359 /* VEC3 Bassdrums Breakbeat 23.aif in Resources */ = {isa = PBXBuildFile; fileRef = 83172296174D923200B59359 /* VEC3 Bassdrums Breakbeat 23.aif */; };
+		831722EE174D923200B59359 /* VEC3 Bassdrums Breakbeat 24.aif in Resources */ = {isa = PBXBuildFile; fileRef = 83172297174D923200B59359 /* VEC3 Bassdrums Breakbeat 24.aif */; };
+		831722EF174D923200B59359 /* VEC3 Bassdrums Breakbeat 25.aif in Resources */ = {isa = PBXBuildFile; fileRef = 83172298174D923200B59359 /* VEC3 Bassdrums Breakbeat 25.aif */; };
+		831722F0174D923200B59359 /* VEC3 Bassdrums Breakbeat 26.aif in Resources */ = {isa = PBXBuildFile; fileRef = 83172299174D923200B59359 /* VEC3 Bassdrums Breakbeat 26.aif */; };
+		831722F1174D923200B59359 /* VEC3 Bassdrums Breakbeat 27.aif in Resources */ = {isa = PBXBuildFile; fileRef = 8317229A174D923200B59359 /* VEC3 Bassdrums Breakbeat 27.aif */; };
+		831722F2174D923200B59359 /* VEC3 Bassdrums Breakbeat 28.aif in Resources */ = {isa = PBXBuildFile; fileRef = 8317229B174D923200B59359 /* VEC3 Bassdrums Breakbeat 28.aif */; };
+		831722F3174D923200B59359 /* VEC3 Bassdrums Breakbeat 29.aif in Resources */ = {isa = PBXBuildFile; fileRef = 8317229C174D923200B59359 /* VEC3 Bassdrums Breakbeat 29.aif */; };
+		831722F4174D923200B59359 /* VEC3 Bassdrums Breakbeat 30.aif in Resources */ = {isa = PBXBuildFile; fileRef = 8317229D174D923200B59359 /* VEC3 Bassdrums Breakbeat 30.aif */; };
+		831722F5174D923200B59359 /* VEC3 Bassdrums Breakbeat 31.aif in Resources */ = {isa = PBXBuildFile; fileRef = 8317229E174D923200B59359 /* VEC3 Bassdrums Breakbeat 31.aif */; };
+		831722F6174D923200B59359 /* VEC3 Bassdrums Breakbeat 32.aif in Resources */ = {isa = PBXBuildFile; fileRef = 8317229F174D923200B59359 /* VEC3 Bassdrums Breakbeat 32.aif */; };
+		831722F7174D923200B59359 /* VEC3 Bassdrums Breakbeat 33.aif in Resources */ = {isa = PBXBuildFile; fileRef = 831722A0174D923200B59359 /* VEC3 Bassdrums Breakbeat 33.aif */; };
+		831722F8174D923200B59359 /* VEC3 Bassdrums Breakbeat 34.aif in Resources */ = {isa = PBXBuildFile; fileRef = 831722A1174D923200B59359 /* VEC3 Bassdrums Breakbeat 34.aif */; };
+		831722F9174D923200B59359 /* VEC3 Bassdrums Breakbeat 35.aif in Resources */ = {isa = PBXBuildFile; fileRef = 831722A2174D923200B59359 /* VEC3 Bassdrums Breakbeat 35.aif */; };
+		831722FA174D923200B59359 /* VEC3 Bassdrums Breakbeat 36.aif in Resources */ = {isa = PBXBuildFile; fileRef = 831722A3174D923200B59359 /* VEC3 Bassdrums Breakbeat 36.aif */; };
+		831722FB174D923200B59359 /* VEC3 Bassdrums Breakbeat 37.aif in Resources */ = {isa = PBXBuildFile; fileRef = 831722A4174D923200B59359 /* VEC3 Bassdrums Breakbeat 37.aif */; };
+		831722FC174D923200B59359 /* VEC3 Bassdrums Breakbeat 38.aif in Resources */ = {isa = PBXBuildFile; fileRef = 831722A5174D923200B59359 /* VEC3 Bassdrums Breakbeat 38.aif */; };
+		831722FD174D923200B59359 /* VEC3 Bassdrums Breakbeat 39.aif in Resources */ = {isa = PBXBuildFile; fileRef = 831722A6174D923200B59359 /* VEC3 Bassdrums Breakbeat 39.aif */; };
+		831722FE174D923200B59359 /* VEC3 Bassdrums Breakbeat 40.aif in Resources */ = {isa = PBXBuildFile; fileRef = 831722A7174D923200B59359 /* VEC3 Bassdrums Breakbeat 40.aif */; };
+		831722FF174D923200B59359 /* VEC3 Bassdrums Clubby 001.aif in Resources */ = {isa = PBXBuildFile; fileRef = 831722A8174D923200B59359 /* VEC3 Bassdrums Clubby 001.aif */; };
+		83172300174D923200B59359 /* VEC3 Bassdrums Clubby 002.aif in Resources */ = {isa = PBXBuildFile; fileRef = 831722A9174D923200B59359 /* VEC3 Bassdrums Clubby 002.aif */; };
+		83172301174D923200B59359 /* VEC3 Bassdrums Clubby 003.aif in Resources */ = {isa = PBXBuildFile; fileRef = 831722AA174D923200B59359 /* VEC3 Bassdrums Clubby 003.aif */; };
+		83172302174D923200B59359 /* VEC3 Bassdrums Clubby 004.aif in Resources */ = {isa = PBXBuildFile; fileRef = 831722AB174D923200B59359 /* VEC3 Bassdrums Clubby 004.aif */; };
+		83172303174D923200B59359 /* VEC3 Bassdrums Clubby 005.aif in Resources */ = {isa = PBXBuildFile; fileRef = 831722AC174D923200B59359 /* VEC3 Bassdrums Clubby 005.aif */; };
+		83172304174D923200B59359 /* VEC3 Bassdrums Clubby 006.aif in Resources */ = {isa = PBXBuildFile; fileRef = 831722AD174D923200B59359 /* VEC3 Bassdrums Clubby 006.aif */; };
+		83172305174D923200B59359 /* VEC3 Bassdrums Clubby 007.aif in Resources */ = {isa = PBXBuildFile; fileRef = 831722AE174D923200B59359 /* VEC3 Bassdrums Clubby 007.aif */; };
+		83172306174D923200B59359 /* VEC3 Bassdrums Clubby 008.aif in Resources */ = {isa = PBXBuildFile; fileRef = 831722AF174D923200B59359 /* VEC3 Bassdrums Clubby 008.aif */; };
+		83172307174D923200B59359 /* VEC3 Bassdrums Clubby 009.aif in Resources */ = {isa = PBXBuildFile; fileRef = 831722B0174D923200B59359 /* VEC3 Bassdrums Clubby 009.aif */; };
+		83172308174D923200B59359 /* VEC3 Bassdrums Clubby 010.aif in Resources */ = {isa = PBXBuildFile; fileRef = 831722B1174D923200B59359 /* VEC3 Bassdrums Clubby 010.aif */; };
+		83172309174D923200B59359 /* VEC3 Bassdrums Clubby 011.aif in Resources */ = {isa = PBXBuildFile; fileRef = 831722B2174D923200B59359 /* VEC3 Bassdrums Clubby 011.aif */; };
+		8317230A174D923200B59359 /* VEC3 Bassdrums Clubby 012.aif in Resources */ = {isa = PBXBuildFile; fileRef = 831722B3174D923200B59359 /* VEC3 Bassdrums Clubby 012.aif */; };
+		8317230B174D923200B59359 /* VEC3 Bassdrums Clubby 013.aif in Resources */ = {isa = PBXBuildFile; fileRef = 831722B4174D923200B59359 /* VEC3 Bassdrums Clubby 013.aif */; };
+		8317230C174D923200B59359 /* VEC3 Bassdrums Clubby 014.aif in Resources */ = {isa = PBXBuildFile; fileRef = 831722B5174D923200B59359 /* VEC3 Bassdrums Clubby 014.aif */; };
+		8317230D174D923200B59359 /* VEC3 Bassdrums Clubby 015.aif in Resources */ = {isa = PBXBuildFile; fileRef = 831722B6174D923200B59359 /* VEC3 Bassdrums Clubby 015.aif */; };
+		8317230E174D923200B59359 /* VEC3 Bassdrums Clubby 016.aif in Resources */ = {isa = PBXBuildFile; fileRef = 831722B7174D923200B59359 /* VEC3 Bassdrums Clubby 016.aif */; };
+		8317230F174D923200B59359 /* VEC3 Bassdrums Clubby 017.aif in Resources */ = {isa = PBXBuildFile; fileRef = 831722B8174D923200B59359 /* VEC3 Bassdrums Clubby 017.aif */; };
+		83172310174D923200B59359 /* VEC3 Bassdrums Clubby 018.aif in Resources */ = {isa = PBXBuildFile; fileRef = 831722B9174D923200B59359 /* VEC3 Bassdrums Clubby 018.aif */; };
+		83172311174D923200B59359 /* VEC3 Bassdrums Clubby 019.aif in Resources */ = {isa = PBXBuildFile; fileRef = 831722BA174D923200B59359 /* VEC3 Bassdrums Clubby 019.aif */; };
+		83172312174D923200B59359 /* VEC3 Bassdrums Clubby 020.aif in Resources */ = {isa = PBXBuildFile; fileRef = 831722BB174D923200B59359 /* VEC3 Bassdrums Clubby 020.aif */; };
+		83172313174D923200B59359 /* VEC3 Cymbals Crash 08.aif in Resources */ = {isa = PBXBuildFile; fileRef = 831722BC174D923200B59359 /* VEC3 Cymbals Crash 08.aif */; };
+		83172314174D923200B59359 /* VEC3 Cymbals Crash 10.aif in Resources */ = {isa = PBXBuildFile; fileRef = 831722BD174D923200B59359 /* VEC3 Cymbals Crash 10.aif */; };
+		83172315174D923200B59359 /* VEC3 Cymbals Crash 26.aif in Resources */ = {isa = PBXBuildFile; fileRef = 831722BE174D923200B59359 /* VEC3 Cymbals Crash 26.aif */; };
+		83172316174D923200B59359 /* VEC3 Cymbals Crash 30.aif in Resources */ = {isa = PBXBuildFile; fileRef = 831722BF174D923200B59359 /* VEC3 Cymbals Crash 30.aif */; };
+		83172317174D923200B59359 /* VEC3 FX Alarm 01.aif in Resources */ = {isa = PBXBuildFile; fileRef = 831722C0174D923200B59359 /* VEC3 FX Alarm 01.aif */; };
+		83172318174D923200B59359 /* VEC3 FX Alarm 06.aif in Resources */ = {isa = PBXBuildFile; fileRef = 831722C1174D923200B59359 /* VEC3 FX Alarm 06.aif */; };
+		83172319174D923200B59359 /* VEC3 FX Alarm 12.aif in Resources */ = {isa = PBXBuildFile; fileRef = 831722C2174D923200B59359 /* VEC3 FX Alarm 12.aif */; };
+		8317231A174D923200B59359 /* VEC3 FX Alarm 13.aif in Resources */ = {isa = PBXBuildFile; fileRef = 831722C3174D923200B59359 /* VEC3 FX Alarm 13.aif */; };
+		8317231B174D923200B59359 /* VEC3 FX Alarm 14.aif in Resources */ = {isa = PBXBuildFile; fileRef = 831722C4174D923200B59359 /* VEC3 FX Alarm 14.aif */; };
+		8317231C174D923200B59359 /* VEC3 FX Alarm 23.aif in Resources */ = {isa = PBXBuildFile; fileRef = 831722C5174D923200B59359 /* VEC3 FX Alarm 23.aif */; };
+		8317231D174D923200B59359 /* VEC3 FX Alarm 24.aif in Resources */ = {isa = PBXBuildFile; fileRef = 831722C6174D923200B59359 /* VEC3 FX Alarm 24.aif */; };
+		8317231E174D923200B59359 /* VEC3 FX Alarm 27.aif in Resources */ = {isa = PBXBuildFile; fileRef = 831722C7174D923200B59359 /* VEC3 FX Alarm 27.aif */; };
+		8317231F174D923200B59359 /* VEC3 FX Scratching 11.aif in Resources */ = {isa = PBXBuildFile; fileRef = 831722C8174D923200B59359 /* VEC3 FX Scratching 11.aif */; };
+		83172320174D923200B59359 /* VEC3 FX Scratching 12.aif in Resources */ = {isa = PBXBuildFile; fileRef = 831722C9174D923200B59359 /* VEC3 FX Scratching 12.aif */; };
+		83172321174D923200B59359 /* VEC3 FX Scratching 14.aif in Resources */ = {isa = PBXBuildFile; fileRef = 831722CA174D923200B59359 /* VEC3 FX Scratching 14.aif */; };
+		83172322174D923200B59359 /* VEC3 FX Scratching 17.aif in Resources */ = {isa = PBXBuildFile; fileRef = 831722CB174D923200B59359 /* VEC3 FX Scratching 17.aif */; };
+		83172323174D923200B59359 /* VEC3 FX Scratching 18.aif in Resources */ = {isa = PBXBuildFile; fileRef = 831722CC174D923200B59359 /* VEC3 FX Scratching 18.aif */; };
+		83172324174D923200B59359 /* VEC3 FX Scratching 20.aif in Resources */ = {isa = PBXBuildFile; fileRef = 831722CD174D923200B59359 /* VEC3 FX Scratching 20.aif */; };
+		83172325174D923200B59359 /* VEC3 FX Scratching 25.aif in Resources */ = {isa = PBXBuildFile; fileRef = 831722CE174D923200B59359 /* VEC3 FX Scratching 25.aif */; };
+		83172326174D923200B59359 /* VEC3 FX Scratching 38.aif in Resources */ = {isa = PBXBuildFile; fileRef = 831722CF174D923200B59359 /* VEC3 FX Scratching 38.aif */; };
+		83172327174D923200B59359 /* VEC3 Special Sounds 100 Root F#.aif in Resources */ = {isa = PBXBuildFile; fileRef = 831722D0174D923200B59359 /* VEC3 Special Sounds 100 Root F#.aif */; };
+		83172328174D923200B59359 /* VEC3 Synths 006 B.aif in Resources */ = {isa = PBXBuildFile; fileRef = 831722D1174D923200B59359 /* VEC3 Synths 006 B.aif */; };
+		83172329174D923200B59359 /* VEC3 Synths 007 D#.aif in Resources */ = {isa = PBXBuildFile; fileRef = 831722D2174D923200B59359 /* VEC3 Synths 007 D#.aif */; };
+		8317232A174D923200B59359 /* VEC3 Synths 015 C.aif in Resources */ = {isa = PBXBuildFile; fileRef = 831722D3174D923200B59359 /* VEC3 Synths 015 C.aif */; };
+		8317232B174D923200B59359 /* VEC3 Synths 023 B.aif in Resources */ = {isa = PBXBuildFile; fileRef = 831722D4174D923200B59359 /* VEC3 Synths 023 B.aif */; };
+		8317232C174D923200B59359 /* VEC3 Synths 027 A.aif in Resources */ = {isa = PBXBuildFile; fileRef = 831722D5174D923200B59359 /* VEC3 Synths 027 A.aif */; };
+		8317232D174D923200B59359 /* VEC3 Synths 030 D.aif in Resources */ = {isa = PBXBuildFile; fileRef = 831722D6174D923200B59359 /* VEC3 Synths 030 D.aif */; };
+		8317232E174D923200B59359 /* VEC3 Synths 062 F.aif in Resources */ = {isa = PBXBuildFile; fileRef = 831722D7174D923200B59359 /* VEC3 Synths 062 F.aif */; };
+		8317232F174D923200B59359 /* VEC3 Synths 076 G.aif in Resources */ = {isa = PBXBuildFile; fileRef = 831722D8174D923200B59359 /* VEC3 Synths 076 G.aif */; };
+		83172330174D923200B59359 /* VEC3 Synths 139 C.aif in Resources */ = {isa = PBXBuildFile; fileRef = 831722D9174D923200B59359 /* VEC3 Synths 139 C.aif */; };
+		83172331174D923200B59359 /* VEC3 Synths 153 C.aif in Resources */ = {isa = PBXBuildFile; fileRef = 831722DA174D923200B59359 /* VEC3 Synths 153 C.aif */; };
+		83172332174D923200B59359 /* VEC3 Synths 205 D#.aif in Resources */ = {isa = PBXBuildFile; fileRef = 831722DB174D923200B59359 /* VEC3 Synths 205 D#.aif */; };
+		83172333174D923200B59359 /* VEC3 Synths 210 C.aif in Resources */ = {isa = PBXBuildFile; fileRef = 831722DC174D923200B59359 /* VEC3 Synths 210 C.aif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -56,6 +143,93 @@
 		21F3A9251732044D00CDD5EC /* MUS147Voice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUS147Voice.m; sourceTree = "<group>"; };
 		21F3A9261732044D00CDD5EC /* Music147.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = Music147.aif; sourceTree = "<group>"; };
 		21F3A92E1732046B00CDD5EC /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		83172286174D923200B59359 /* 1 F1.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = "1 F1.aif"; sourceTree = "<group>"; };
+		83172287174D923200B59359 /* 10 D2.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = "10 D2.aif"; sourceTree = "<group>"; };
+		83172288174D923200B59359 /* 11 D#2.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = "11 D#2.aif"; sourceTree = "<group>"; };
+		83172289174D923200B59359 /* 12 E2.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = "12 E2.aif"; sourceTree = "<group>"; };
+		8317228A174D923200B59359 /* 13 F2.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = "13 F2.aif"; sourceTree = "<group>"; };
+		8317228B174D923200B59359 /* 14 AttackNoize.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = "14 AttackNoize.aif"; sourceTree = "<group>"; };
+		8317228C174D923200B59359 /* 2 F#1.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = "2 F#1.aif"; sourceTree = "<group>"; };
+		8317228D174D923200B59359 /* 3 G1.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = "3 G1.aif"; sourceTree = "<group>"; };
+		8317228E174D923200B59359 /* 4 G#1.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = "4 G#1.aif"; sourceTree = "<group>"; };
+		8317228F174D923200B59359 /* 5 A1.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = "5 A1.aif"; sourceTree = "<group>"; };
+		83172290174D923200B59359 /* 6 A#1.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = "6 A#1.aif"; sourceTree = "<group>"; };
+		83172291174D923200B59359 /* 7 B1.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = "7 B1.aif"; sourceTree = "<group>"; };
+		83172292174D923200B59359 /* 8 C2.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = "8 C2.aif"; sourceTree = "<group>"; };
+		83172293174D923200B59359 /* 9 C#2.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = "9 C#2.aif"; sourceTree = "<group>"; };
+		83172294174D923200B59359 /* VEC3 Bassdrums Breakbeat 21.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = "VEC3 Bassdrums Breakbeat 21.aif"; sourceTree = "<group>"; };
+		83172295174D923200B59359 /* VEC3 Bassdrums Breakbeat 22.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = "VEC3 Bassdrums Breakbeat 22.aif"; sourceTree = "<group>"; };
+		83172296174D923200B59359 /* VEC3 Bassdrums Breakbeat 23.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = "VEC3 Bassdrums Breakbeat 23.aif"; sourceTree = "<group>"; };
+		83172297174D923200B59359 /* VEC3 Bassdrums Breakbeat 24.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = "VEC3 Bassdrums Breakbeat 24.aif"; sourceTree = "<group>"; };
+		83172298174D923200B59359 /* VEC3 Bassdrums Breakbeat 25.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = "VEC3 Bassdrums Breakbeat 25.aif"; sourceTree = "<group>"; };
+		83172299174D923200B59359 /* VEC3 Bassdrums Breakbeat 26.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = "VEC3 Bassdrums Breakbeat 26.aif"; sourceTree = "<group>"; };
+		8317229A174D923200B59359 /* VEC3 Bassdrums Breakbeat 27.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = "VEC3 Bassdrums Breakbeat 27.aif"; sourceTree = "<group>"; };
+		8317229B174D923200B59359 /* VEC3 Bassdrums Breakbeat 28.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = "VEC3 Bassdrums Breakbeat 28.aif"; sourceTree = "<group>"; };
+		8317229C174D923200B59359 /* VEC3 Bassdrums Breakbeat 29.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = "VEC3 Bassdrums Breakbeat 29.aif"; sourceTree = "<group>"; };
+		8317229D174D923200B59359 /* VEC3 Bassdrums Breakbeat 30.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = "VEC3 Bassdrums Breakbeat 30.aif"; sourceTree = "<group>"; };
+		8317229E174D923200B59359 /* VEC3 Bassdrums Breakbeat 31.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = "VEC3 Bassdrums Breakbeat 31.aif"; sourceTree = "<group>"; };
+		8317229F174D923200B59359 /* VEC3 Bassdrums Breakbeat 32.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = "VEC3 Bassdrums Breakbeat 32.aif"; sourceTree = "<group>"; };
+		831722A0174D923200B59359 /* VEC3 Bassdrums Breakbeat 33.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = "VEC3 Bassdrums Breakbeat 33.aif"; sourceTree = "<group>"; };
+		831722A1174D923200B59359 /* VEC3 Bassdrums Breakbeat 34.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = "VEC3 Bassdrums Breakbeat 34.aif"; sourceTree = "<group>"; };
+		831722A2174D923200B59359 /* VEC3 Bassdrums Breakbeat 35.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = "VEC3 Bassdrums Breakbeat 35.aif"; sourceTree = "<group>"; };
+		831722A3174D923200B59359 /* VEC3 Bassdrums Breakbeat 36.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = "VEC3 Bassdrums Breakbeat 36.aif"; sourceTree = "<group>"; };
+		831722A4174D923200B59359 /* VEC3 Bassdrums Breakbeat 37.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = "VEC3 Bassdrums Breakbeat 37.aif"; sourceTree = "<group>"; };
+		831722A5174D923200B59359 /* VEC3 Bassdrums Breakbeat 38.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = "VEC3 Bassdrums Breakbeat 38.aif"; sourceTree = "<group>"; };
+		831722A6174D923200B59359 /* VEC3 Bassdrums Breakbeat 39.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = "VEC3 Bassdrums Breakbeat 39.aif"; sourceTree = "<group>"; };
+		831722A7174D923200B59359 /* VEC3 Bassdrums Breakbeat 40.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = "VEC3 Bassdrums Breakbeat 40.aif"; sourceTree = "<group>"; };
+		831722A8174D923200B59359 /* VEC3 Bassdrums Clubby 001.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = "VEC3 Bassdrums Clubby 001.aif"; sourceTree = "<group>"; };
+		831722A9174D923200B59359 /* VEC3 Bassdrums Clubby 002.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = "VEC3 Bassdrums Clubby 002.aif"; sourceTree = "<group>"; };
+		831722AA174D923200B59359 /* VEC3 Bassdrums Clubby 003.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = "VEC3 Bassdrums Clubby 003.aif"; sourceTree = "<group>"; };
+		831722AB174D923200B59359 /* VEC3 Bassdrums Clubby 004.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = "VEC3 Bassdrums Clubby 004.aif"; sourceTree = "<group>"; };
+		831722AC174D923200B59359 /* VEC3 Bassdrums Clubby 005.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = "VEC3 Bassdrums Clubby 005.aif"; sourceTree = "<group>"; };
+		831722AD174D923200B59359 /* VEC3 Bassdrums Clubby 006.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = "VEC3 Bassdrums Clubby 006.aif"; sourceTree = "<group>"; };
+		831722AE174D923200B59359 /* VEC3 Bassdrums Clubby 007.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = "VEC3 Bassdrums Clubby 007.aif"; sourceTree = "<group>"; };
+		831722AF174D923200B59359 /* VEC3 Bassdrums Clubby 008.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = "VEC3 Bassdrums Clubby 008.aif"; sourceTree = "<group>"; };
+		831722B0174D923200B59359 /* VEC3 Bassdrums Clubby 009.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = "VEC3 Bassdrums Clubby 009.aif"; sourceTree = "<group>"; };
+		831722B1174D923200B59359 /* VEC3 Bassdrums Clubby 010.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = "VEC3 Bassdrums Clubby 010.aif"; sourceTree = "<group>"; };
+		831722B2174D923200B59359 /* VEC3 Bassdrums Clubby 011.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = "VEC3 Bassdrums Clubby 011.aif"; sourceTree = "<group>"; };
+		831722B3174D923200B59359 /* VEC3 Bassdrums Clubby 012.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = "VEC3 Bassdrums Clubby 012.aif"; sourceTree = "<group>"; };
+		831722B4174D923200B59359 /* VEC3 Bassdrums Clubby 013.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = "VEC3 Bassdrums Clubby 013.aif"; sourceTree = "<group>"; };
+		831722B5174D923200B59359 /* VEC3 Bassdrums Clubby 014.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = "VEC3 Bassdrums Clubby 014.aif"; sourceTree = "<group>"; };
+		831722B6174D923200B59359 /* VEC3 Bassdrums Clubby 015.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = "VEC3 Bassdrums Clubby 015.aif"; sourceTree = "<group>"; };
+		831722B7174D923200B59359 /* VEC3 Bassdrums Clubby 016.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = "VEC3 Bassdrums Clubby 016.aif"; sourceTree = "<group>"; };
+		831722B8174D923200B59359 /* VEC3 Bassdrums Clubby 017.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = "VEC3 Bassdrums Clubby 017.aif"; sourceTree = "<group>"; };
+		831722B9174D923200B59359 /* VEC3 Bassdrums Clubby 018.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = "VEC3 Bassdrums Clubby 018.aif"; sourceTree = "<group>"; };
+		831722BA174D923200B59359 /* VEC3 Bassdrums Clubby 019.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = "VEC3 Bassdrums Clubby 019.aif"; sourceTree = "<group>"; };
+		831722BB174D923200B59359 /* VEC3 Bassdrums Clubby 020.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = "VEC3 Bassdrums Clubby 020.aif"; sourceTree = "<group>"; };
+		831722BC174D923200B59359 /* VEC3 Cymbals Crash 08.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = "VEC3 Cymbals Crash 08.aif"; sourceTree = "<group>"; };
+		831722BD174D923200B59359 /* VEC3 Cymbals Crash 10.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = "VEC3 Cymbals Crash 10.aif"; sourceTree = "<group>"; };
+		831722BE174D923200B59359 /* VEC3 Cymbals Crash 26.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = "VEC3 Cymbals Crash 26.aif"; sourceTree = "<group>"; };
+		831722BF174D923200B59359 /* VEC3 Cymbals Crash 30.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = "VEC3 Cymbals Crash 30.aif"; sourceTree = "<group>"; };
+		831722C0174D923200B59359 /* VEC3 FX Alarm 01.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = "VEC3 FX Alarm 01.aif"; sourceTree = "<group>"; };
+		831722C1174D923200B59359 /* VEC3 FX Alarm 06.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = "VEC3 FX Alarm 06.aif"; sourceTree = "<group>"; };
+		831722C2174D923200B59359 /* VEC3 FX Alarm 12.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = "VEC3 FX Alarm 12.aif"; sourceTree = "<group>"; };
+		831722C3174D923200B59359 /* VEC3 FX Alarm 13.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = "VEC3 FX Alarm 13.aif"; sourceTree = "<group>"; };
+		831722C4174D923200B59359 /* VEC3 FX Alarm 14.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = "VEC3 FX Alarm 14.aif"; sourceTree = "<group>"; };
+		831722C5174D923200B59359 /* VEC3 FX Alarm 23.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = "VEC3 FX Alarm 23.aif"; sourceTree = "<group>"; };
+		831722C6174D923200B59359 /* VEC3 FX Alarm 24.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = "VEC3 FX Alarm 24.aif"; sourceTree = "<group>"; };
+		831722C7174D923200B59359 /* VEC3 FX Alarm 27.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = "VEC3 FX Alarm 27.aif"; sourceTree = "<group>"; };
+		831722C8174D923200B59359 /* VEC3 FX Scratching 11.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = "VEC3 FX Scratching 11.aif"; sourceTree = "<group>"; };
+		831722C9174D923200B59359 /* VEC3 FX Scratching 12.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = "VEC3 FX Scratching 12.aif"; sourceTree = "<group>"; };
+		831722CA174D923200B59359 /* VEC3 FX Scratching 14.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = "VEC3 FX Scratching 14.aif"; sourceTree = "<group>"; };
+		831722CB174D923200B59359 /* VEC3 FX Scratching 17.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = "VEC3 FX Scratching 17.aif"; sourceTree = "<group>"; };
+		831722CC174D923200B59359 /* VEC3 FX Scratching 18.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = "VEC3 FX Scratching 18.aif"; sourceTree = "<group>"; };
+		831722CD174D923200B59359 /* VEC3 FX Scratching 20.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = "VEC3 FX Scratching 20.aif"; sourceTree = "<group>"; };
+		831722CE174D923200B59359 /* VEC3 FX Scratching 25.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = "VEC3 FX Scratching 25.aif"; sourceTree = "<group>"; };
+		831722CF174D923200B59359 /* VEC3 FX Scratching 38.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = "VEC3 FX Scratching 38.aif"; sourceTree = "<group>"; };
+		831722D0174D923200B59359 /* VEC3 Special Sounds 100 Root F#.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = "VEC3 Special Sounds 100 Root F#.aif"; sourceTree = "<group>"; };
+		831722D1174D923200B59359 /* VEC3 Synths 006 B.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = "VEC3 Synths 006 B.aif"; sourceTree = "<group>"; };
+		831722D2174D923200B59359 /* VEC3 Synths 007 D#.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = "VEC3 Synths 007 D#.aif"; sourceTree = "<group>"; };
+		831722D3174D923200B59359 /* VEC3 Synths 015 C.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = "VEC3 Synths 015 C.aif"; sourceTree = "<group>"; };
+		831722D4174D923200B59359 /* VEC3 Synths 023 B.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = "VEC3 Synths 023 B.aif"; sourceTree = "<group>"; };
+		831722D5174D923200B59359 /* VEC3 Synths 027 A.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = "VEC3 Synths 027 A.aif"; sourceTree = "<group>"; };
+		831722D6174D923200B59359 /* VEC3 Synths 030 D.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = "VEC3 Synths 030 D.aif"; sourceTree = "<group>"; };
+		831722D7174D923200B59359 /* VEC3 Synths 062 F.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = "VEC3 Synths 062 F.aif"; sourceTree = "<group>"; };
+		831722D8174D923200B59359 /* VEC3 Synths 076 G.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = "VEC3 Synths 076 G.aif"; sourceTree = "<group>"; };
+		831722D9174D923200B59359 /* VEC3 Synths 139 C.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = "VEC3 Synths 139 C.aif"; sourceTree = "<group>"; };
+		831722DA174D923200B59359 /* VEC3 Synths 153 C.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = "VEC3 Synths 153 C.aif"; sourceTree = "<group>"; };
+		831722DB174D923200B59359 /* VEC3 Synths 205 D#.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = "VEC3 Synths 205 D#.aif"; sourceTree = "<group>"; };
+		831722DC174D923200B59359 /* VEC3 Synths 210 C.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = "VEC3 Synths 210 C.aif"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +301,7 @@
 		21A4B813172C27F000E1FACA /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				83172285174D923200B59359 /* AIFF samples */,
 				21F3A9261732044D00CDD5EC /* Music147.aif */,
 				21A4B814172C27F000E1FACA /* ucimusic147-1-Info.plist */,
 				21A4B815172C27F000E1FACA /* InfoPlist.strings */,
@@ -137,6 +312,100 @@
 				21A4B822172C27F100E1FACA /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		83172285174D923200B59359 /* AIFF samples */ = {
+			isa = PBXGroup;
+			children = (
+				83172286174D923200B59359 /* 1 F1.aif */,
+				83172287174D923200B59359 /* 10 D2.aif */,
+				83172288174D923200B59359 /* 11 D#2.aif */,
+				83172289174D923200B59359 /* 12 E2.aif */,
+				8317228A174D923200B59359 /* 13 F2.aif */,
+				8317228B174D923200B59359 /* 14 AttackNoize.aif */,
+				8317228C174D923200B59359 /* 2 F#1.aif */,
+				8317228D174D923200B59359 /* 3 G1.aif */,
+				8317228E174D923200B59359 /* 4 G#1.aif */,
+				8317228F174D923200B59359 /* 5 A1.aif */,
+				83172290174D923200B59359 /* 6 A#1.aif */,
+				83172291174D923200B59359 /* 7 B1.aif */,
+				83172292174D923200B59359 /* 8 C2.aif */,
+				83172293174D923200B59359 /* 9 C#2.aif */,
+				83172294174D923200B59359 /* VEC3 Bassdrums Breakbeat 21.aif */,
+				83172295174D923200B59359 /* VEC3 Bassdrums Breakbeat 22.aif */,
+				83172296174D923200B59359 /* VEC3 Bassdrums Breakbeat 23.aif */,
+				83172297174D923200B59359 /* VEC3 Bassdrums Breakbeat 24.aif */,
+				83172298174D923200B59359 /* VEC3 Bassdrums Breakbeat 25.aif */,
+				83172299174D923200B59359 /* VEC3 Bassdrums Breakbeat 26.aif */,
+				8317229A174D923200B59359 /* VEC3 Bassdrums Breakbeat 27.aif */,
+				8317229B174D923200B59359 /* VEC3 Bassdrums Breakbeat 28.aif */,
+				8317229C174D923200B59359 /* VEC3 Bassdrums Breakbeat 29.aif */,
+				8317229D174D923200B59359 /* VEC3 Bassdrums Breakbeat 30.aif */,
+				8317229E174D923200B59359 /* VEC3 Bassdrums Breakbeat 31.aif */,
+				8317229F174D923200B59359 /* VEC3 Bassdrums Breakbeat 32.aif */,
+				831722A0174D923200B59359 /* VEC3 Bassdrums Breakbeat 33.aif */,
+				831722A1174D923200B59359 /* VEC3 Bassdrums Breakbeat 34.aif */,
+				831722A2174D923200B59359 /* VEC3 Bassdrums Breakbeat 35.aif */,
+				831722A3174D923200B59359 /* VEC3 Bassdrums Breakbeat 36.aif */,
+				831722A4174D923200B59359 /* VEC3 Bassdrums Breakbeat 37.aif */,
+				831722A5174D923200B59359 /* VEC3 Bassdrums Breakbeat 38.aif */,
+				831722A6174D923200B59359 /* VEC3 Bassdrums Breakbeat 39.aif */,
+				831722A7174D923200B59359 /* VEC3 Bassdrums Breakbeat 40.aif */,
+				831722A8174D923200B59359 /* VEC3 Bassdrums Clubby 001.aif */,
+				831722A9174D923200B59359 /* VEC3 Bassdrums Clubby 002.aif */,
+				831722AA174D923200B59359 /* VEC3 Bassdrums Clubby 003.aif */,
+				831722AB174D923200B59359 /* VEC3 Bassdrums Clubby 004.aif */,
+				831722AC174D923200B59359 /* VEC3 Bassdrums Clubby 005.aif */,
+				831722AD174D923200B59359 /* VEC3 Bassdrums Clubby 006.aif */,
+				831722AE174D923200B59359 /* VEC3 Bassdrums Clubby 007.aif */,
+				831722AF174D923200B59359 /* VEC3 Bassdrums Clubby 008.aif */,
+				831722B0174D923200B59359 /* VEC3 Bassdrums Clubby 009.aif */,
+				831722B1174D923200B59359 /* VEC3 Bassdrums Clubby 010.aif */,
+				831722B2174D923200B59359 /* VEC3 Bassdrums Clubby 011.aif */,
+				831722B3174D923200B59359 /* VEC3 Bassdrums Clubby 012.aif */,
+				831722B4174D923200B59359 /* VEC3 Bassdrums Clubby 013.aif */,
+				831722B5174D923200B59359 /* VEC3 Bassdrums Clubby 014.aif */,
+				831722B6174D923200B59359 /* VEC3 Bassdrums Clubby 015.aif */,
+				831722B7174D923200B59359 /* VEC3 Bassdrums Clubby 016.aif */,
+				831722B8174D923200B59359 /* VEC3 Bassdrums Clubby 017.aif */,
+				831722B9174D923200B59359 /* VEC3 Bassdrums Clubby 018.aif */,
+				831722BA174D923200B59359 /* VEC3 Bassdrums Clubby 019.aif */,
+				831722BB174D923200B59359 /* VEC3 Bassdrums Clubby 020.aif */,
+				831722BC174D923200B59359 /* VEC3 Cymbals Crash 08.aif */,
+				831722BD174D923200B59359 /* VEC3 Cymbals Crash 10.aif */,
+				831722BE174D923200B59359 /* VEC3 Cymbals Crash 26.aif */,
+				831722BF174D923200B59359 /* VEC3 Cymbals Crash 30.aif */,
+				831722C0174D923200B59359 /* VEC3 FX Alarm 01.aif */,
+				831722C1174D923200B59359 /* VEC3 FX Alarm 06.aif */,
+				831722C2174D923200B59359 /* VEC3 FX Alarm 12.aif */,
+				831722C3174D923200B59359 /* VEC3 FX Alarm 13.aif */,
+				831722C4174D923200B59359 /* VEC3 FX Alarm 14.aif */,
+				831722C5174D923200B59359 /* VEC3 FX Alarm 23.aif */,
+				831722C6174D923200B59359 /* VEC3 FX Alarm 24.aif */,
+				831722C7174D923200B59359 /* VEC3 FX Alarm 27.aif */,
+				831722C8174D923200B59359 /* VEC3 FX Scratching 11.aif */,
+				831722C9174D923200B59359 /* VEC3 FX Scratching 12.aif */,
+				831722CA174D923200B59359 /* VEC3 FX Scratching 14.aif */,
+				831722CB174D923200B59359 /* VEC3 FX Scratching 17.aif */,
+				831722CC174D923200B59359 /* VEC3 FX Scratching 18.aif */,
+				831722CD174D923200B59359 /* VEC3 FX Scratching 20.aif */,
+				831722CE174D923200B59359 /* VEC3 FX Scratching 25.aif */,
+				831722CF174D923200B59359 /* VEC3 FX Scratching 38.aif */,
+				831722D0174D923200B59359 /* VEC3 Special Sounds 100 Root F#.aif */,
+				831722D1174D923200B59359 /* VEC3 Synths 006 B.aif */,
+				831722D2174D923200B59359 /* VEC3 Synths 007 D#.aif */,
+				831722D3174D923200B59359 /* VEC3 Synths 015 C.aif */,
+				831722D4174D923200B59359 /* VEC3 Synths 023 B.aif */,
+				831722D5174D923200B59359 /* VEC3 Synths 027 A.aif */,
+				831722D6174D923200B59359 /* VEC3 Synths 030 D.aif */,
+				831722D7174D923200B59359 /* VEC3 Synths 062 F.aif */,
+				831722D8174D923200B59359 /* VEC3 Synths 076 G.aif */,
+				831722D9174D923200B59359 /* VEC3 Synths 139 C.aif */,
+				831722DA174D923200B59359 /* VEC3 Synths 153 C.aif */,
+				831722DB174D923200B59359 /* VEC3 Synths 205 D#.aif */,
+				831722DC174D923200B59359 /* VEC3 Synths 210 C.aif */,
+			);
+			path = "AIFF samples";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -197,6 +466,93 @@
 				21A4B823172C27F100E1FACA /* Default-568h@2x.png in Resources */,
 				21A4B829172C27F100E1FACA /* MUS147ViewController.xib in Resources */,
 				21F3A92C1732044D00CDD5EC /* Music147.aif in Resources */,
+				831722DD174D923200B59359 /* 1 F1.aif in Resources */,
+				831722DE174D923200B59359 /* 10 D2.aif in Resources */,
+				831722DF174D923200B59359 /* 11 D#2.aif in Resources */,
+				831722E0174D923200B59359 /* 12 E2.aif in Resources */,
+				831722E1174D923200B59359 /* 13 F2.aif in Resources */,
+				831722E2174D923200B59359 /* 14 AttackNoize.aif in Resources */,
+				831722E3174D923200B59359 /* 2 F#1.aif in Resources */,
+				831722E4174D923200B59359 /* 3 G1.aif in Resources */,
+				831722E5174D923200B59359 /* 4 G#1.aif in Resources */,
+				831722E6174D923200B59359 /* 5 A1.aif in Resources */,
+				831722E7174D923200B59359 /* 6 A#1.aif in Resources */,
+				831722E8174D923200B59359 /* 7 B1.aif in Resources */,
+				831722E9174D923200B59359 /* 8 C2.aif in Resources */,
+				831722EA174D923200B59359 /* 9 C#2.aif in Resources */,
+				831722EB174D923200B59359 /* VEC3 Bassdrums Breakbeat 21.aif in Resources */,
+				831722EC174D923200B59359 /* VEC3 Bassdrums Breakbeat 22.aif in Resources */,
+				831722ED174D923200B59359 /* VEC3 Bassdrums Breakbeat 23.aif in Resources */,
+				831722EE174D923200B59359 /* VEC3 Bassdrums Breakbeat 24.aif in Resources */,
+				831722EF174D923200B59359 /* VEC3 Bassdrums Breakbeat 25.aif in Resources */,
+				831722F0174D923200B59359 /* VEC3 Bassdrums Breakbeat 26.aif in Resources */,
+				831722F1174D923200B59359 /* VEC3 Bassdrums Breakbeat 27.aif in Resources */,
+				831722F2174D923200B59359 /* VEC3 Bassdrums Breakbeat 28.aif in Resources */,
+				831722F3174D923200B59359 /* VEC3 Bassdrums Breakbeat 29.aif in Resources */,
+				831722F4174D923200B59359 /* VEC3 Bassdrums Breakbeat 30.aif in Resources */,
+				831722F5174D923200B59359 /* VEC3 Bassdrums Breakbeat 31.aif in Resources */,
+				831722F6174D923200B59359 /* VEC3 Bassdrums Breakbeat 32.aif in Resources */,
+				831722F7174D923200B59359 /* VEC3 Bassdrums Breakbeat 33.aif in Resources */,
+				831722F8174D923200B59359 /* VEC3 Bassdrums Breakbeat 34.aif in Resources */,
+				831722F9174D923200B59359 /* VEC3 Bassdrums Breakbeat 35.aif in Resources */,
+				831722FA174D923200B59359 /* VEC3 Bassdrums Breakbeat 36.aif in Resources */,
+				831722FB174D923200B59359 /* VEC3 Bassdrums Breakbeat 37.aif in Resources */,
+				831722FC174D923200B59359 /* VEC3 Bassdrums Breakbeat 38.aif in Resources */,
+				831722FD174D923200B59359 /* VEC3 Bassdrums Breakbeat 39.aif in Resources */,
+				831722FE174D923200B59359 /* VEC3 Bassdrums Breakbeat 40.aif in Resources */,
+				831722FF174D923200B59359 /* VEC3 Bassdrums Clubby 001.aif in Resources */,
+				83172300174D923200B59359 /* VEC3 Bassdrums Clubby 002.aif in Resources */,
+				83172301174D923200B59359 /* VEC3 Bassdrums Clubby 003.aif in Resources */,
+				83172302174D923200B59359 /* VEC3 Bassdrums Clubby 004.aif in Resources */,
+				83172303174D923200B59359 /* VEC3 Bassdrums Clubby 005.aif in Resources */,
+				83172304174D923200B59359 /* VEC3 Bassdrums Clubby 006.aif in Resources */,
+				83172305174D923200B59359 /* VEC3 Bassdrums Clubby 007.aif in Resources */,
+				83172306174D923200B59359 /* VEC3 Bassdrums Clubby 008.aif in Resources */,
+				83172307174D923200B59359 /* VEC3 Bassdrums Clubby 009.aif in Resources */,
+				83172308174D923200B59359 /* VEC3 Bassdrums Clubby 010.aif in Resources */,
+				83172309174D923200B59359 /* VEC3 Bassdrums Clubby 011.aif in Resources */,
+				8317230A174D923200B59359 /* VEC3 Bassdrums Clubby 012.aif in Resources */,
+				8317230B174D923200B59359 /* VEC3 Bassdrums Clubby 013.aif in Resources */,
+				8317230C174D923200B59359 /* VEC3 Bassdrums Clubby 014.aif in Resources */,
+				8317230D174D923200B59359 /* VEC3 Bassdrums Clubby 015.aif in Resources */,
+				8317230E174D923200B59359 /* VEC3 Bassdrums Clubby 016.aif in Resources */,
+				8317230F174D923200B59359 /* VEC3 Bassdrums Clubby 017.aif in Resources */,
+				83172310174D923200B59359 /* VEC3 Bassdrums Clubby 018.aif in Resources */,
+				83172311174D923200B59359 /* VEC3 Bassdrums Clubby 019.aif in Resources */,
+				83172312174D923200B59359 /* VEC3 Bassdrums Clubby 020.aif in Resources */,
+				83172313174D923200B59359 /* VEC3 Cymbals Crash 08.aif in Resources */,
+				83172314174D923200B59359 /* VEC3 Cymbals Crash 10.aif in Resources */,
+				83172315174D923200B59359 /* VEC3 Cymbals Crash 26.aif in Resources */,
+				83172316174D923200B59359 /* VEC3 Cymbals Crash 30.aif in Resources */,
+				83172317174D923200B59359 /* VEC3 FX Alarm 01.aif in Resources */,
+				83172318174D923200B59359 /* VEC3 FX Alarm 06.aif in Resources */,
+				83172319174D923200B59359 /* VEC3 FX Alarm 12.aif in Resources */,
+				8317231A174D923200B59359 /* VEC3 FX Alarm 13.aif in Resources */,
+				8317231B174D923200B59359 /* VEC3 FX Alarm 14.aif in Resources */,
+				8317231C174D923200B59359 /* VEC3 FX Alarm 23.aif in Resources */,
+				8317231D174D923200B59359 /* VEC3 FX Alarm 24.aif in Resources */,
+				8317231E174D923200B59359 /* VEC3 FX Alarm 27.aif in Resources */,
+				8317231F174D923200B59359 /* VEC3 FX Scratching 11.aif in Resources */,
+				83172320174D923200B59359 /* VEC3 FX Scratching 12.aif in Resources */,
+				83172321174D923200B59359 /* VEC3 FX Scratching 14.aif in Resources */,
+				83172322174D923200B59359 /* VEC3 FX Scratching 17.aif in Resources */,
+				83172323174D923200B59359 /* VEC3 FX Scratching 18.aif in Resources */,
+				83172324174D923200B59359 /* VEC3 FX Scratching 20.aif in Resources */,
+				83172325174D923200B59359 /* VEC3 FX Scratching 25.aif in Resources */,
+				83172326174D923200B59359 /* VEC3 FX Scratching 38.aif in Resources */,
+				83172327174D923200B59359 /* VEC3 Special Sounds 100 Root F#.aif in Resources */,
+				83172328174D923200B59359 /* VEC3 Synths 006 B.aif in Resources */,
+				83172329174D923200B59359 /* VEC3 Synths 007 D#.aif in Resources */,
+				8317232A174D923200B59359 /* VEC3 Synths 015 C.aif in Resources */,
+				8317232B174D923200B59359 /* VEC3 Synths 023 B.aif in Resources */,
+				8317232C174D923200B59359 /* VEC3 Synths 027 A.aif in Resources */,
+				8317232D174D923200B59359 /* VEC3 Synths 030 D.aif in Resources */,
+				8317232E174D923200B59359 /* VEC3 Synths 062 F.aif in Resources */,
+				8317232F174D923200B59359 /* VEC3 Synths 076 G.aif in Resources */,
+				83172330174D923200B59359 /* VEC3 Synths 139 C.aif in Resources */,
+				83172331174D923200B59359 /* VEC3 Synths 153 C.aif in Resources */,
+				83172332174D923200B59359 /* VEC3 Synths 205 D#.aif in Resources */,
+				83172333174D923200B59359 /* VEC3 Synths 210 C.aif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,10 +649,14 @@
 		21A4B82D172C27F100E1FACA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = (
+					armv7,
+					arm6,
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ucimusic147-1/ucimusic147-1-Prefix.pch";
 				INFOPLIST_FILE = "ucimusic147-1/ucimusic147-1-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -305,10 +665,15 @@
 		21A4B82E172C27F100E1FACA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = (
+					armv7,
+					arm6,
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ucimusic147-1/ucimusic147-1-Prefix.pch";
 				INFOPLIST_FILE = "ucimusic147-1/ucimusic147-1-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
