@@ -15,11 +15,13 @@
     Float64 amp;
     
     Float64 speed;
+    BOOL playing;
 }
 
 @property (readwrite) Float64 freq;
 @property (readwrite) Float64 amp;
 @property (readwrite) Float64 speed;
+@property (readwrite) BOOL playing;
 
 -(void)fillAudioBuffer:(Float64*)buffer:(UInt32)num_samples;
 

@@ -13,6 +13,7 @@
 @synthesize freq;
 @synthesize amp;
 @synthesize speed;
+@synthesize playing;
 
 -(void)fillAudioBuffer:(Float64*)buffer:(UInt32)num_samples
 {
