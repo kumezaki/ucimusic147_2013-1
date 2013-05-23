@@ -103,15 +103,15 @@
 		83172328174D923200B59359 /* synthB.aif in Resources */ = {isa = PBXBuildFile; fileRef = 831722D1174D923200B59359 /* synthB.aif */; };
 		83172329174D923200B59359 /* synthDsharp.aif in Resources */ = {isa = PBXBuildFile; fileRef = 831722D2174D923200B59359 /* synthDsharp.aif */; };
 		8317232A174D923200B59359 /* synthC.aif in Resources */ = {isa = PBXBuildFile; fileRef = 831722D3174D923200B59359 /* synthC.aif */; };
-		8317232B174D923200B59359 /* VEC3 Synths 023 B.aif in Resources */ = {isa = PBXBuildFile; fileRef = 831722D4174D923200B59359 /* VEC3 Synths 023 B.aif */; };
-		8317232C174D923200B59359 /* VEC3 Synths 027 A.aif in Resources */ = {isa = PBXBuildFile; fileRef = 831722D5174D923200B59359 /* VEC3 Synths 027 A.aif */; };
-		8317232D174D923200B59359 /* VEC3 Synths 030 D.aif in Resources */ = {isa = PBXBuildFile; fileRef = 831722D6174D923200B59359 /* VEC3 Synths 030 D.aif */; };
-		8317232E174D923200B59359 /* VEC3 Synths 062 F.aif in Resources */ = {isa = PBXBuildFile; fileRef = 831722D7174D923200B59359 /* VEC3 Synths 062 F.aif */; };
-		8317232F174D923200B59359 /* VEC3 Synths 076 G.aif in Resources */ = {isa = PBXBuildFile; fileRef = 831722D8174D923200B59359 /* VEC3 Synths 076 G.aif */; };
-		83172330174D923200B59359 /* VEC3 Synths 139 C.aif in Resources */ = {isa = PBXBuildFile; fileRef = 831722D9174D923200B59359 /* VEC3 Synths 139 C.aif */; };
-		83172331174D923200B59359 /* VEC3 Synths 153 C.aif in Resources */ = {isa = PBXBuildFile; fileRef = 831722DA174D923200B59359 /* VEC3 Synths 153 C.aif */; };
-		83172332174D923200B59359 /* VEC3 Synths 205 D#.aif in Resources */ = {isa = PBXBuildFile; fileRef = 831722DB174D923200B59359 /* VEC3 Synths 205 D#.aif */; };
-		83172333174D923200B59359 /* VEC3 Synths 210 C.aif in Resources */ = {isa = PBXBuildFile; fileRef = 831722DC174D923200B59359 /* VEC3 Synths 210 C.aif */; };
+		8317232B174D923200B59359 /* Synth023.aif in Resources */ = {isa = PBXBuildFile; fileRef = 831722D4174D923200B59359 /* Synth023.aif */; };
+		8317232C174D923200B59359 /* Synth027.aif in Resources */ = {isa = PBXBuildFile; fileRef = 831722D5174D923200B59359 /* Synth027.aif */; };
+		8317232D174D923200B59359 /* Synth030.aif in Resources */ = {isa = PBXBuildFile; fileRef = 831722D6174D923200B59359 /* Synth030.aif */; };
+		8317232E174D923200B59359 /* Synth031.aif in Resources */ = {isa = PBXBuildFile; fileRef = 831722D7174D923200B59359 /* Synth031.aif */; };
+		8317232F174D923200B59359 /* Synth032.aif in Resources */ = {isa = PBXBuildFile; fileRef = 831722D8174D923200B59359 /* Synth032.aif */; };
+		83172330174D923200B59359 /* Synth033.aif in Resources */ = {isa = PBXBuildFile; fileRef = 831722D9174D923200B59359 /* Synth033.aif */; };
+		83172331174D923200B59359 /* Synth034.aif in Resources */ = {isa = PBXBuildFile; fileRef = 831722DA174D923200B59359 /* Synth034.aif */; };
+		83172332174D923200B59359 /* Synth035.aif in Resources */ = {isa = PBXBuildFile; fileRef = 831722DB174D923200B59359 /* Synth035.aif */; };
+		83172333174D923200B59359 /* Synth036.aif in Resources */ = {isa = PBXBuildFile; fileRef = 831722DC174D923200B59359 /* Synth036.aif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -221,15 +221,15 @@
 		831722D1174D923200B59359 /* synthB.aif */ = {isa = PBXFileReference; lastKnownFileType = file; name = synthB.aif; path = "AIFF samples/synthB.aif"; sourceTree = "<group>"; };
 		831722D2174D923200B59359 /* synthDsharp.aif */ = {isa = PBXFileReference; lastKnownFileType = file; name = synthDsharp.aif; path = "AIFF samples/synthDsharp.aif"; sourceTree = "<group>"; };
 		831722D3174D923200B59359 /* synthC.aif */ = {isa = PBXFileReference; lastKnownFileType = file; name = synthC.aif; path = "AIFF samples/synthC.aif"; sourceTree = "<group>"; };
-		831722D4174D923200B59359 /* VEC3 Synths 023 B.aif */ = {isa = PBXFileReference; lastKnownFileType = file; name = "VEC3 Synths 023 B.aif"; path = "AIFF samples/VEC3 Synths 023 B.aif"; sourceTree = "<group>"; };
-		831722D5174D923200B59359 /* VEC3 Synths 027 A.aif */ = {isa = PBXFileReference; lastKnownFileType = file; name = "VEC3 Synths 027 A.aif"; path = "AIFF samples/VEC3 Synths 027 A.aif"; sourceTree = "<group>"; };
-		831722D6174D923200B59359 /* VEC3 Synths 030 D.aif */ = {isa = PBXFileReference; lastKnownFileType = file; name = "VEC3 Synths 030 D.aif"; path = "AIFF samples/VEC3 Synths 030 D.aif"; sourceTree = "<group>"; };
-		831722D7174D923200B59359 /* VEC3 Synths 062 F.aif */ = {isa = PBXFileReference; lastKnownFileType = file; name = "VEC3 Synths 062 F.aif"; path = "AIFF samples/VEC3 Synths 062 F.aif"; sourceTree = "<group>"; };
-		831722D8174D923200B59359 /* VEC3 Synths 076 G.aif */ = {isa = PBXFileReference; lastKnownFileType = file; name = "VEC3 Synths 076 G.aif"; path = "AIFF samples/VEC3 Synths 076 G.aif"; sourceTree = "<group>"; };
-		831722D9174D923200B59359 /* VEC3 Synths 139 C.aif */ = {isa = PBXFileReference; lastKnownFileType = file; name = "VEC3 Synths 139 C.aif"; path = "AIFF samples/VEC3 Synths 139 C.aif"; sourceTree = "<group>"; };
-		831722DA174D923200B59359 /* VEC3 Synths 153 C.aif */ = {isa = PBXFileReference; lastKnownFileType = file; name = "VEC3 Synths 153 C.aif"; path = "AIFF samples/VEC3 Synths 153 C.aif"; sourceTree = "<group>"; };
-		831722DB174D923200B59359 /* VEC3 Synths 205 D#.aif */ = {isa = PBXFileReference; lastKnownFileType = file; name = "VEC3 Synths 205 D#.aif"; path = "AIFF samples/VEC3 Synths 205 D#.aif"; sourceTree = "<group>"; };
-		831722DC174D923200B59359 /* VEC3 Synths 210 C.aif */ = {isa = PBXFileReference; lastKnownFileType = file; name = "VEC3 Synths 210 C.aif"; path = "AIFF samples/VEC3 Synths 210 C.aif"; sourceTree = "<group>"; };
+		831722D4174D923200B59359 /* Synth023.aif */ = {isa = PBXFileReference; lastKnownFileType = file; name = Synth023.aif; path = "AIFF samples/Synth023.aif"; sourceTree = "<group>"; };
+		831722D5174D923200B59359 /* Synth027.aif */ = {isa = PBXFileReference; lastKnownFileType = file; name = Synth027.aif; path = "AIFF samples/Synth027.aif"; sourceTree = "<group>"; };
+		831722D6174D923200B59359 /* Synth030.aif */ = {isa = PBXFileReference; lastKnownFileType = file; name = Synth030.aif; path = "AIFF samples/Synth030.aif"; sourceTree = "<group>"; };
+		831722D7174D923200B59359 /* Synth031.aif */ = {isa = PBXFileReference; lastKnownFileType = file; name = Synth031.aif; path = "AIFF samples/Synth031.aif"; sourceTree = "<group>"; };
+		831722D8174D923200B59359 /* Synth032.aif */ = {isa = PBXFileReference; lastKnownFileType = file; name = Synth032.aif; path = "AIFF samples/Synth032.aif"; sourceTree = "<group>"; };
+		831722D9174D923200B59359 /* Synth033.aif */ = {isa = PBXFileReference; lastKnownFileType = file; name = Synth033.aif; path = "AIFF samples/Synth033.aif"; sourceTree = "<group>"; };
+		831722DA174D923200B59359 /* Synth034.aif */ = {isa = PBXFileReference; lastKnownFileType = file; name = Synth034.aif; path = "AIFF samples/Synth034.aif"; sourceTree = "<group>"; };
+		831722DB174D923200B59359 /* Synth035.aif */ = {isa = PBXFileReference; lastKnownFileType = file; name = Synth035.aif; path = "AIFF samples/Synth035.aif"; sourceTree = "<group>"; };
+		831722DC174D923200B59359 /* Synth036.aif */ = {isa = PBXFileReference; lastKnownFileType = file; name = Synth036.aif; path = "AIFF samples/Synth036.aif"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -379,15 +379,15 @@
 				831722D1174D923200B59359 /* synthB.aif */,
 				831722D2174D923200B59359 /* synthDsharp.aif */,
 				831722D3174D923200B59359 /* synthC.aif */,
-				831722D4174D923200B59359 /* VEC3 Synths 023 B.aif */,
-				831722D5174D923200B59359 /* VEC3 Synths 027 A.aif */,
-				831722D6174D923200B59359 /* VEC3 Synths 030 D.aif */,
-				831722D7174D923200B59359 /* VEC3 Synths 062 F.aif */,
-				831722D8174D923200B59359 /* VEC3 Synths 076 G.aif */,
-				831722D9174D923200B59359 /* VEC3 Synths 139 C.aif */,
-				831722DA174D923200B59359 /* VEC3 Synths 153 C.aif */,
-				831722DB174D923200B59359 /* VEC3 Synths 205 D#.aif */,
-				831722DC174D923200B59359 /* VEC3 Synths 210 C.aif */,
+				831722D4174D923200B59359 /* Synth023.aif */,
+				831722D5174D923200B59359 /* Synth027.aif */,
+				831722D6174D923200B59359 /* Synth030.aif */,
+				831722D7174D923200B59359 /* Synth031.aif */,
+				831722D8174D923200B59359 /* Synth032.aif */,
+				831722D9174D923200B59359 /* Synth033.aif */,
+				831722DA174D923200B59359 /* Synth034.aif */,
+				831722DB174D923200B59359 /* Synth035.aif */,
+				831722DC174D923200B59359 /* Synth036.aif */,
 				83172285174D923200B59359 /* AIFF samples */,
 				21F3A9261732044D00CDD5EC /* Music147.aif */,
 				21A4B814172C27F000E1FACA /* ucimusic147-1-Info.plist */,
@@ -544,15 +544,15 @@
 				83172328174D923200B59359 /* synthB.aif in Resources */,
 				83172329174D923200B59359 /* synthDsharp.aif in Resources */,
 				8317232A174D923200B59359 /* synthC.aif in Resources */,
-				8317232B174D923200B59359 /* VEC3 Synths 023 B.aif in Resources */,
-				8317232C174D923200B59359 /* VEC3 Synths 027 A.aif in Resources */,
-				8317232D174D923200B59359 /* VEC3 Synths 030 D.aif in Resources */,
-				8317232E174D923200B59359 /* VEC3 Synths 062 F.aif in Resources */,
-				8317232F174D923200B59359 /* VEC3 Synths 076 G.aif in Resources */,
-				83172330174D923200B59359 /* VEC3 Synths 139 C.aif in Resources */,
-				83172331174D923200B59359 /* VEC3 Synths 153 C.aif in Resources */,
-				83172332174D923200B59359 /* VEC3 Synths 205 D#.aif in Resources */,
-				83172333174D923200B59359 /* VEC3 Synths 210 C.aif in Resources */,
+				8317232B174D923200B59359 /* Synth023.aif in Resources */,
+				8317232C174D923200B59359 /* Synth027.aif in Resources */,
+				8317232D174D923200B59359 /* Synth030.aif in Resources */,
+				8317232E174D923200B59359 /* Synth031.aif in Resources */,
+				8317232F174D923200B59359 /* Synth032.aif in Resources */,
+				83172330174D923200B59359 /* Synth033.aif in Resources */,
+				83172331174D923200B59359 /* Synth034.aif in Resources */,
+				83172332174D923200B59359 /* Synth035.aif in Resources */,
+				83172333174D923200B59359 /* Synth036.aif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

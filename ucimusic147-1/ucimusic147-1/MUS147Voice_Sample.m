@@ -20,7 +20,7 @@
     
     /* get a path to the sound file */
     /* note that the file name and file extension are set here */
-	CFURLRef mSoundFileURLRef = CFBundleCopyResourceURL(CFBundleGetMainBundle(),CFSTR("Music147"),CFSTR("aif"),NULL);
+	CFURLRef mSoundFileURLRef = CFBundleCopyResourceURL(CFBundleGetMainBundle(),CFSTR("AttackNoize"),CFSTR("aif"),NULL);
     
 	/* open the file and get the fileID */
 	OSStatus result = noErr;
@@ -45,6 +45,7 @@
     //NSLog("playng: %b", playing);
     if(playing == NO)
     {
+        filePos = 0;
         return;
     }
     /* set up arguments needed by AudioFileReadPackets */
