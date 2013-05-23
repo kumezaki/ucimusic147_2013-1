@@ -388,7 +388,6 @@
 				831722DA174D923200B59359 /* Synth034.aif */,
 				831722DB174D923200B59359 /* Synth035.aif */,
 				831722DC174D923200B59359 /* Synth036.aif */,
-				83172285174D923200B59359 /* AIFF samples */,
 				21F3A9261732044D00CDD5EC /* Music147.aif */,
 				21A4B814172C27F000E1FACA /* ucimusic147-1-Info.plist */,
 				21A4B815172C27F000E1FACA /* InfoPlist.strings */,
@@ -399,13 +398,6 @@
 				21A4B822172C27F100E1FACA /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		83172285174D923200B59359 /* AIFF samples */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "AIFF samples";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
