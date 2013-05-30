@@ -21,7 +21,7 @@
 #define kNumBuffers_Playback     3
 
 // number of possible playback voices
-#define kNumVoices          2
+#define kNumVoices          4
 
 // number of possible synth voices
 #define kNumVoices_Synth    4
@@ -40,7 +40,7 @@
     // the following were added in preparation for supporting pools of voices
     // for now, there is only one element in each array
     MUS147Voice* voice_samp_mem[1];
-    MUS147Voice* voice_samp_sf[1];
+    MUS147Voice* voice_samp_sf[kNumVoices];
     MUS147Voice* voice_synth_blit[kNumVoices_Synth];
     MUS147Voice* voice_synth_blitsaw[kNumVoices_Synth];
 
@@ -51,7 +51,6 @@
     MUS147Effect* effect[kNumEffects];
     
     MUS147Sequencer* sequencer;
-    NSArray *filesArray;
 }
 
 @property (nonatomic,readwrite) UInt8 synthVoiceType;

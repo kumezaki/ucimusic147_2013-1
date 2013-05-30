@@ -10,4 +10,6 @@
 
 @interface MUS147Voice_Synth : MUS147Voice
 
+-(id)initWithFreq:(UInt32)frequency;
+
 @end

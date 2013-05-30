@@ -19,8 +19,6 @@
 
 MUS147AQPlayer *aqp = nil;
 
-
-
 void MUS147AQBufferCallback(void *inUserData, AudioQueueRef inAQ, AudioQueueBufferRef inAQBuffer);
 
 void MUS147AQBufferCallback(void *inUserData, AudioQueueRef inAQ, AudioQueueBufferRef inAQBuffer)
@@ -64,13 +62,15 @@ void MUS147AQBufferCallback(void *inUserData, AudioQueueRef inAQ, AudioQueueBuff
 -(id)init
 {
     self = [super init];
-    
-    filesArray = [NSArray arrayWithObjects: @"beat21",@"beat22",@"beat23",@"beat24",@"beat25",@"beat26",@"beat27",@"beat28",@"beat29",nil];
-	aqp = self;
 
+	aqp = self;
+    
     // first allocate pools of voices ...
     voice_samp_mem[0] = [[MUS147Voice_Sample_Mem alloc] init];
-    voice_samp_sf[0] = [[MUS147Voice_Sample_SF alloc] init];
+    voice_samp_sf[0] = [[MUS147Voice_Sample_SF alloc] initWithFile:@"Music147"];
+    voice_samp_sf[1] = [[MUS147Voice_Sample_SF alloc] initWithFile:@"scratch38"];
+    voice_samp_sf[2] = [[MUS147Voice_Sample_SF alloc] initWithFile:@"scratch11"];
+    voice_samp_sf[3] = [[MUS147Voice_Sample_SF alloc] initWithFile:@"scratch25"];
 
     for (UInt8 i = 0; i < kNumVoices_Synth; i++)
     {
@@ -79,15 +79,12 @@ void MUS147AQBufferCallback(void *inUserData, AudioQueueRef inAQ, AudioQueueBuff
     }
 
     // ... then assign them to array of active voices
+    
     for (UInt8 i = 0; i < kNumVoices; i++)
     {
-        voice[i] = voice_samp_sf[0];
-        NSLog(@"%@",filesArray[i]);
+        voice[i] = voice_samp_sf[i];
     }
-    voice[0].filename = CFSTR("beat21");
-    voice[1].filename = CFSTR("beat22");
-    voice[2].filename = CFSTR("beat23");
-    voice[3].filename = CFSTR("beat24");
+    
     
 //    for (UInt8 i = 0; i < kNumEffects; i++)
 //    {

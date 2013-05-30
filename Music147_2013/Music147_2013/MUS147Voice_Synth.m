@@ -28,4 +28,13 @@
     }
 }
 
+-(id)initWithFreq:(UInt32)frequency
+{
+    
+    self = [super init];
+    
+    freq = frequency;
+    return self;
+}
+
 @end

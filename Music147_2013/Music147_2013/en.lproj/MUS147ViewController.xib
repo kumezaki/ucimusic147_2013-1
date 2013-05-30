@@ -43,6 +43,7 @@
 						<int key="NSvFlags">292</int>
 						<string key="NSFrame">{{57, 71}, {207, 44}}</string>
 						<reference key="NSSuperview" ref="774585933"/>
+						<reference key="NSWindow"/>
 						<reference key="NSNextKeyView" ref="194557966"/>
 						<bool key="IBUIOpaque">NO</bool>
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
@@ -74,6 +75,7 @@
 						<int key="NSvFlags">292</int>
 						<string key="NSFrame">{{55, 122}, {211, 23}}</string>
 						<reference key="NSSuperview" ref="774585933"/>
+						<reference key="NSWindow"/>
 						<reference key="NSNextKeyView" ref="83159960"/>
 						<bool key="IBUIOpaque">NO</bool>
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
@@ -86,6 +88,7 @@
 						<int key="NSvFlags">292</int>
 						<string key="NSFrame">{{55, 152}, {211, 23}}</string>
 						<reference key="NSSuperview" ref="774585933"/>
+						<reference key="NSWindow"/>
 						<reference key="NSNextKeyView"/>
 						<bool key="IBUIOpaque">NO</bool>
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
@@ -98,6 +101,7 @@
 						<int key="NSvFlags">292</int>
 						<string key="NSFrame">{{32, 20}, {257, 42}}</string>
 						<reference key="NSSuperview" ref="774585933"/>
+						<reference key="NSWindow"/>
 						<reference key="NSNextKeyView" ref="472022785"/>
 						<bool key="IBUIOpaque">NO</bool>
 						<bool key="IBUIClipsSubviews">YES</bool>
@@ -124,11 +128,12 @@
 							<int key="NSfFlags">16</int>
 						</object>
 					</object>
-					<object class="IBUIButton" id="748661334">
+					<object class="IBUIButton" id="637753482">
 						<reference key="NSNextResponder" ref="774585933"/>
 						<int key="NSvFlags">292</int>
 						<string key="NSFrame">{{232, 386}, {60, 61}}</string>
 						<reference key="NSSuperview" ref="774585933"/>
+						<reference key="NSWindow"/>
 						<reference key="NSNextKeyView"/>
 						<string key="NSReuseIdentifierKey">_NS:9</string>
 						<bool key="IBUIOpaque">NO</bool>
@@ -152,17 +157,18 @@
 							<int key="type">2</int>
 							<double key="pointSize">15</double>
 						</object>
-						<object class="NSFont" key="IBUIFont" id="816415979">
+						<object class="NSFont" key="IBUIFont" id="774074869">
 							<string key="NSName">Helvetica-Bold</string>
 							<double key="NSSize">15</double>
 							<int key="NSfFlags">16</int>
 						</object>
 					</object>
-					<object class="IBUIButton" id="674366281">
+					<object class="IBUIButton" id="279289692">
 						<reference key="NSNextResponder" ref="774585933"/>
 						<int key="NSvFlags">292</int>
 						<string key="NSFrame">{{232, 318}, {60, 61}}</string>
 						<reference key="NSSuperview" ref="774585933"/>
+						<reference key="NSWindow"/>
 						<string key="NSReuseIdentifierKey">_NS:9</string>
 						<bool key="IBUIOpaque">NO</bool>
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
@@ -176,13 +182,14 @@
 						</object>
 						<reference key="IBUINormalTitleShadowColor" ref="509442160"/>
 						<reference key="IBUIFontDescription" ref="416645317"/>
-						<reference key="IBUIFont" ref="816415979"/>
+						<reference key="IBUIFont" ref="774074869"/>
 					</object>
-					<object class="IBUIButton" id="791934405">
+					<object class="IBUIButton" id="617100733">
 						<reference key="NSNextResponder" ref="774585933"/>
 						<int key="NSvFlags">292</int>
 						<string key="NSFrame">{{164, 318}, {60, 61}}</string>
 						<reference key="NSSuperview" ref="774585933"/>
+						<reference key="NSWindow"/>
 						<string key="NSReuseIdentifierKey">_NS:9</string>
 						<bool key="IBUIOpaque">NO</bool>
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
@@ -196,13 +203,14 @@
 						</object>
 						<reference key="IBUINormalTitleShadowColor" ref="509442160"/>
 						<reference key="IBUIFontDescription" ref="416645317"/>
-						<reference key="IBUIFont" ref="816415979"/>
+						<reference key="IBUIFont" ref="774074869"/>
 					</object>
-					<object class="IBUIButton" id="707003065">
+					<object class="IBUIButton" id="1033963915">
 						<reference key="NSNextResponder" ref="774585933"/>
 						<int key="NSvFlags">292</int>
 						<string key="NSFrame">{{164, 386}, {60, 61}}</string>
 						<reference key="NSSuperview" ref="774585933"/>
+						<reference key="NSWindow"/>
 						<string key="NSReuseIdentifierKey">_NS:9</string>
 						<bool key="IBUIOpaque">NO</bool>
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
@@ -216,13 +224,14 @@
 						</object>
 						<reference key="IBUINormalTitleShadowColor" ref="509442160"/>
 						<reference key="IBUIFontDescription" ref="416645317"/>
-						<reference key="IBUIFont" ref="816415979"/>
+						<reference key="IBUIFont" ref="774074869"/>
 					</object>
-					<object class="IBUIButton" id="760341661">
+					<object class="IBUIButton" id="739138708">
 						<reference key="NSNextResponder" ref="774585933"/>
 						<int key="NSvFlags">292</int>
 						<string key="NSFrame">{{96, 386}, {60, 61}}</string>
 						<reference key="NSSuperview" ref="774585933"/>
+						<reference key="NSWindow"/>
 						<string key="NSReuseIdentifierKey">_NS:9</string>
 						<bool key="IBUIOpaque">NO</bool>
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
@@ -236,13 +245,14 @@
 						</object>
 						<reference key="IBUINormalTitleShadowColor" ref="509442160"/>
 						<reference key="IBUIFontDescription" ref="416645317"/>
-						<reference key="IBUIFont" ref="816415979"/>
+						<reference key="IBUIFont" ref="774074869"/>
 					</object>
-					<object class="IBUIButton" id="491033347">
+					<object class="IBUIButton" id="138060706">
 						<reference key="NSNextResponder" ref="774585933"/>
 						<int key="NSvFlags">292</int>
 						<string key="NSFrame">{{28, 386}, {60, 61}}</string>
 						<reference key="NSSuperview" ref="774585933"/>
+						<reference key="NSWindow"/>
 						<string key="NSReuseIdentifierKey">_NS:9</string>
 						<bool key="IBUIOpaque">NO</bool>
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
@@ -256,13 +266,14 @@
 						</object>
 						<reference key="IBUINormalTitleShadowColor" ref="509442160"/>
 						<reference key="IBUIFontDescription" ref="416645317"/>
-						<reference key="IBUIFont" ref="816415979"/>
+						<reference key="IBUIFont" ref="774074869"/>
 					</object>
-					<object class="IBUIButton" id="854709401">
+					<object class="IBUIButton" id="84348640">
 						<reference key="NSNextResponder" ref="774585933"/>
 						<int key="NSvFlags">292</int>
 						<string key="NSFrame">{{28, 318}, {60, 61}}</string>
 						<reference key="NSSuperview" ref="774585933"/>
+						<reference key="NSWindow"/>
 						<string key="NSReuseIdentifierKey">_NS:9</string>
 						<bool key="IBUIOpaque">NO</bool>
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
@@ -276,13 +287,14 @@
 						</object>
 						<reference key="IBUINormalTitleShadowColor" ref="509442160"/>
 						<reference key="IBUIFontDescription" ref="416645317"/>
-						<reference key="IBUIFont" ref="816415979"/>
+						<reference key="IBUIFont" ref="774074869"/>
 					</object>
-					<object class="IBUIButton" id="925484567">
+					<object class="IBUIButton" id="70913080">
 						<reference key="NSNextResponder" ref="774585933"/>
 						<int key="NSvFlags">292</int>
 						<string key="NSFrame">{{96, 318}, {60, 61}}</string>
 						<reference key="NSSuperview" ref="774585933"/>
+						<reference key="NSWindow"/>
 						<string key="NSReuseIdentifierKey">_NS:9</string>
 						<bool key="IBUIOpaque">NO</bool>
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
@@ -296,13 +308,14 @@
 						</object>
 						<reference key="IBUINormalTitleShadowColor" ref="509442160"/>
 						<reference key="IBUIFontDescription" ref="416645317"/>
-						<reference key="IBUIFont" ref="816415979"/>
+						<reference key="IBUIFont" ref="774074869"/>
 					</object>
-					<object class="IBUIButton" id="588537839">
+					<object class="IBUIButton" id="468071170">
 						<reference key="NSNextResponder" ref="774585933"/>
 						<int key="NSvFlags">292</int>
 						<string key="NSFrame">{{96, 250}, {60, 61}}</string>
 						<reference key="NSSuperview" ref="774585933"/>
+						<reference key="NSWindow"/>
 						<string key="NSReuseIdentifierKey">_NS:9</string>
 						<bool key="IBUIOpaque">NO</bool>
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
@@ -316,13 +329,14 @@
 						</object>
 						<reference key="IBUINormalTitleShadowColor" ref="509442160"/>
 						<reference key="IBUIFontDescription" ref="416645317"/>
-						<reference key="IBUIFont" ref="816415979"/>
+						<reference key="IBUIFont" ref="774074869"/>
 					</object>
-					<object class="IBUIButton" id="914646764">
+					<object class="IBUIButton" id="413556852">
 						<reference key="NSNextResponder" ref="774585933"/>
 						<int key="NSvFlags">292</int>
 						<string key="NSFrame">{{28, 250}, {60, 61}}</string>
 						<reference key="NSSuperview" ref="774585933"/>
+						<reference key="NSWindow"/>
 						<string key="NSReuseIdentifierKey">_NS:9</string>
 						<bool key="IBUIOpaque">NO</bool>
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
@@ -336,33 +350,14 @@
 						</object>
 						<reference key="IBUINormalTitleShadowColor" ref="509442160"/>
 						<reference key="IBUIFontDescription" ref="416645317"/>
-						<reference key="IBUIFont" ref="816415979"/>
+						<reference key="IBUIFont" ref="774074869"/>
 					</object>
-					<object class="IBUIButton" id="688679689">
-						<reference key="NSNextResponder" ref="774585933"/>
-						<int key="NSvFlags">292</int>
-						<string key="NSFrame">{{28, 182}, {60, 61}}</string>
-						<reference key="NSSuperview" ref="774585933"/>
-						<string key="NSReuseIdentifierKey">_NS:9</string>
-						<bool key="IBUIOpaque">NO</bool>
-						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
-						<int key="IBUIContentHorizontalAlignment">0</int>
-						<int key="IBUIContentVerticalAlignment">0</int>
-						<int key="IBUIButtonType">1</int>
-						<reference key="IBUIHighlightedTitleColor" ref="898257363"/>
-						<object class="NSColor" key="IBUINormalTitleColor">
-							<int key="NSColorSpace">1</int>
-							<bytes key="NSRGB">MC4xOTYwNzg0MzQ2IDAuMzA5ODAzOTMyOSAwLjUyMTU2ODY1NgA</bytes>
-						</object>
-						<reference key="IBUINormalTitleShadowColor" ref="509442160"/>
-						<reference key="IBUIFontDescription" ref="416645317"/>
-						<reference key="IBUIFont" ref="816415979"/>
-					</object>
-					<object class="IBUIButton" id="131373032">
+					<object class="IBUIButton" id="390775885">
 						<reference key="NSNextResponder" ref="774585933"/>
 						<int key="NSvFlags">292</int>
 						<string key="NSFrame">{{96, 182}, {60, 61}}</string>
 						<reference key="NSSuperview" ref="774585933"/>
+						<reference key="NSWindow"/>
 						<string key="NSReuseIdentifierKey">_NS:9</string>
 						<bool key="IBUIOpaque">NO</bool>
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
@@ -376,13 +371,35 @@
 						</object>
 						<reference key="IBUINormalTitleShadowColor" ref="509442160"/>
 						<reference key="IBUIFontDescription" ref="416645317"/>
-						<reference key="IBUIFont" ref="816415979"/>
+						<reference key="IBUIFont" ref="774074869"/>
 					</object>
-					<object class="IBUIButton" id="513278060">
+					<object class="IBUIButton" id="453267310">
+						<reference key="NSNextResponder" ref="774585933"/>
+						<int key="NSvFlags">292</int>
+						<string key="NSFrame">{{28, 182}, {60, 61}}</string>
+						<reference key="NSSuperview" ref="774585933"/>
+						<reference key="NSWindow"/>
+						<string key="NSReuseIdentifierKey">_NS:9</string>
+						<bool key="IBUIOpaque">NO</bool>
+						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
+						<int key="IBUIContentHorizontalAlignment">0</int>
+						<int key="IBUIContentVerticalAlignment">0</int>
+						<int key="IBUIButtonType">1</int>
+						<reference key="IBUIHighlightedTitleColor" ref="898257363"/>
+						<object class="NSColor" key="IBUINormalTitleColor">
+							<int key="NSColorSpace">1</int>
+							<bytes key="NSRGB">MC4xOTYwNzg0MzQ2IDAuMzA5ODAzOTMyOSAwLjUyMTU2ODY1NgA</bytes>
+						</object>
+						<reference key="IBUINormalTitleShadowColor" ref="509442160"/>
+						<reference key="IBUIFontDescription" ref="416645317"/>
+						<reference key="IBUIFont" ref="774074869"/>
+					</object>
+					<object class="IBUIButton" id="910086768">
 						<reference key="NSNextResponder" ref="774585933"/>
 						<int key="NSvFlags">292</int>
 						<string key="NSFrame">{{164, 182}, {60, 61}}</string>
 						<reference key="NSSuperview" ref="774585933"/>
+						<reference key="NSWindow"/>
 						<string key="NSReuseIdentifierKey">_NS:9</string>
 						<bool key="IBUIOpaque">NO</bool>
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
@@ -396,13 +413,14 @@
 						</object>
 						<reference key="IBUINormalTitleShadowColor" ref="509442160"/>
 						<reference key="IBUIFontDescription" ref="416645317"/>
-						<reference key="IBUIFont" ref="816415979"/>
+						<reference key="IBUIFont" ref="774074869"/>
 					</object>
-					<object class="IBUIButton" id="597287917">
+					<object class="IBUIButton" id="331192053">
 						<reference key="NSNextResponder" ref="774585933"/>
 						<int key="NSvFlags">292</int>
 						<string key="NSFrame">{{164, 250}, {60, 61}}</string>
 						<reference key="NSSuperview" ref="774585933"/>
+						<reference key="NSWindow"/>
 						<string key="NSReuseIdentifierKey">_NS:9</string>
 						<bool key="IBUIOpaque">NO</bool>
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
@@ -416,13 +434,14 @@
 						</object>
 						<reference key="IBUINormalTitleShadowColor" ref="509442160"/>
 						<reference key="IBUIFontDescription" ref="416645317"/>
-						<reference key="IBUIFont" ref="816415979"/>
+						<reference key="IBUIFont" ref="774074869"/>
 					</object>
-					<object class="IBUIButton" id="177117443">
+					<object class="IBUIButton" id="358534214">
 						<reference key="NSNextResponder" ref="774585933"/>
 						<int key="NSvFlags">292</int>
 						<string key="NSFrame">{{232, 250}, {60, 61}}</string>
 						<reference key="NSSuperview" ref="774585933"/>
+						<reference key="NSWindow"/>
 						<string key="NSReuseIdentifierKey">_NS:9</string>
 						<bool key="IBUIOpaque">NO</bool>
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
@@ -436,13 +455,14 @@
 						</object>
 						<reference key="IBUINormalTitleShadowColor" ref="509442160"/>
 						<reference key="IBUIFontDescription" ref="416645317"/>
-						<reference key="IBUIFont" ref="816415979"/>
+						<reference key="IBUIFont" ref="774074869"/>
 					</object>
-					<object class="IBUIButton" id="487672012">
+					<object class="IBUIButton" id="498120537">
 						<reference key="NSNextResponder" ref="774585933"/>
 						<int key="NSvFlags">292</int>
 						<string key="NSFrame">{{232, 182}, {60, 61}}</string>
 						<reference key="NSSuperview" ref="774585933"/>
+						<reference key="NSWindow"/>
 						<string key="NSReuseIdentifierKey">_NS:9</string>
 						<bool key="IBUIOpaque">NO</bool>
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
@@ -456,11 +476,12 @@
 						</object>
 						<reference key="IBUINormalTitleShadowColor" ref="509442160"/>
 						<reference key="IBUIFontDescription" ref="416645317"/>
-						<reference key="IBUIFont" ref="816415979"/>
+						<reference key="IBUIFont" ref="774074869"/>
 					</object>
 				</array>
 				<string key="NSFrame">{{0, 20}, {320, 460}}</string>
 				<reference key="NSSuperview"/>
+				<reference key="NSWindow"/>
 				<reference key="NSNextKeyView" ref="482261181"/>
 				<object class="NSColor" key="IBUIBackgroundColor">
 					<int key="NSColorSpace">3</int>
@@ -505,14 +526,38 @@
 					<object class="IBCocoaTouchOutletConnection" key="connection">
 						<string key="label">button1</string>
 						<reference key="source" ref="372490531"/>
-						<reference key="destination" ref="748661334"/>
+						<reference key="destination" ref="637753482"/>
 					</object>
 					<int key="connectionID">145</int>
 				</object>
 				<object class="IBConnectionRecord">
+					<object class="IBCocoaTouchOutletConnection" key="connection">
+						<string key="label">button2</string>
+						<reference key="source" ref="372490531"/>
+						<reference key="destination" ref="390775885"/>
+					</object>
+					<int key="connectionID">292</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBCocoaTouchOutletConnection" key="connection">
+						<string key="label">button3</string>
+						<reference key="source" ref="372490531"/>
+						<reference key="destination" ref="910086768"/>
+					</object>
+					<int key="connectionID">293</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBCocoaTouchOutletConnection" key="connection">
+						<string key="label">button4</string>
+						<reference key="source" ref="372490531"/>
+						<reference key="destination" ref="498120537"/>
+					</object>
+					<int key="connectionID">300</int>
+				</object>
+				<object class="IBConnectionRecord">
 					<object class="IBCocoaTouchEventConnection" key="connection">
 						<string key="label">playButton1:</string>
-						<reference key="source" ref="748661334"/>
+						<reference key="source" ref="637753482"/>
 						<reference key="destination" ref="372490531"/>
 						<int key="IBEventType">1</int>
 					</object>
@@ -521,7 +566,7 @@
 				<object class="IBConnectionRecord">
 					<object class="IBCocoaTouchEventConnection" key="connection">
 						<string key="label">stopButton1:</string>
-						<reference key="source" ref="748661334"/>
+						<reference key="source" ref="637753482"/>
 						<reference key="destination" ref="372490531"/>
 						<int key="IBEventType">7</int>
 					</object>
@@ -530,7 +575,7 @@
 				<object class="IBConnectionRecord">
 					<object class="IBCocoaTouchEventConnection" key="connection">
 						<string key="label">playButton1:</string>
-						<reference key="source" ref="748661334"/>
+						<reference key="source" ref="637753482"/>
 						<reference key="destination" ref="372490531"/>
 						<int key="IBEventType">2</int>
 					</object>
@@ -539,7 +584,7 @@
 				<object class="IBConnectionRecord">
 					<object class="IBCocoaTouchEventConnection" key="connection">
 						<string key="label">stopButton1:</string>
-						<reference key="source" ref="748661334"/>
+						<reference key="source" ref="637753482"/>
 						<reference key="destination" ref="372490531"/>
 						<int key="IBEventType">8</int>
 					</object>
@@ -548,7 +593,7 @@
 				<object class="IBConnectionRecord">
 					<object class="IBCocoaTouchEventConnection" key="connection">
 						<string key="label">playButton1:</string>
-						<reference key="source" ref="748661334"/>
+						<reference key="source" ref="637753482"/>
 						<reference key="destination" ref="372490531"/>
 						<int key="IBEventType">3</int>
 					</object>
@@ -557,7 +602,7 @@
 				<object class="IBConnectionRecord">
 					<object class="IBCocoaTouchEventConnection" key="connection">
 						<string key="label">playButton1:</string>
-						<reference key="source" ref="674366281"/>
+						<reference key="source" ref="279289692"/>
 						<reference key="destination" ref="372490531"/>
 						<int key="IBEventType">3</int>
 					</object>
@@ -566,7 +611,7 @@
 				<object class="IBConnectionRecord">
 					<object class="IBCocoaTouchEventConnection" key="connection">
 						<string key="label">stopButton1:</string>
-						<reference key="source" ref="674366281"/>
+						<reference key="source" ref="279289692"/>
 						<reference key="destination" ref="372490531"/>
 						<int key="IBEventType">8</int>
 					</object>
@@ -575,7 +620,7 @@
 				<object class="IBConnectionRecord">
 					<object class="IBCocoaTouchEventConnection" key="connection">
 						<string key="label">stopButton1:</string>
-						<reference key="source" ref="674366281"/>
+						<reference key="source" ref="279289692"/>
 						<reference key="destination" ref="372490531"/>
 						<int key="IBEventType">7</int>
 					</object>
@@ -584,7 +629,7 @@
 				<object class="IBConnectionRecord">
 					<object class="IBCocoaTouchEventConnection" key="connection">
 						<string key="label">playButton1:</string>
-						<reference key="source" ref="674366281"/>
+						<reference key="source" ref="279289692"/>
 						<reference key="destination" ref="372490531"/>
 						<int key="IBEventType">1</int>
 					</object>
@@ -593,7 +638,7 @@
 				<object class="IBConnectionRecord">
 					<object class="IBCocoaTouchEventConnection" key="connection">
 						<string key="label">playButton1:</string>
-						<reference key="source" ref="674366281"/>
+						<reference key="source" ref="279289692"/>
 						<reference key="destination" ref="372490531"/>
 						<int key="IBEventType">2</int>
 					</object>
@@ -602,7 +647,7 @@
 				<object class="IBConnectionRecord">
 					<object class="IBCocoaTouchEventConnection" key="connection">
 						<string key="label">stopButton1:</string>
-						<reference key="source" ref="791934405"/>
+						<reference key="source" ref="617100733"/>
 						<reference key="destination" ref="372490531"/>
 						<int key="IBEventType">7</int>
 					</object>
@@ -611,7 +656,7 @@
 				<object class="IBConnectionRecord">
 					<object class="IBCocoaTouchEventConnection" key="connection">
 						<string key="label">playButton1:</string>
-						<reference key="source" ref="791934405"/>
+						<reference key="source" ref="617100733"/>
 						<reference key="destination" ref="372490531"/>
 						<int key="IBEventType">2</int>
 					</object>
@@ -620,7 +665,7 @@
 				<object class="IBConnectionRecord">
 					<object class="IBCocoaTouchEventConnection" key="connection">
 						<string key="label">playButton1:</string>
-						<reference key="source" ref="791934405"/>
+						<reference key="source" ref="617100733"/>
 						<reference key="destination" ref="372490531"/>
 						<int key="IBEventType">3</int>
 					</object>
@@ -629,7 +674,7 @@
 				<object class="IBConnectionRecord">
 					<object class="IBCocoaTouchEventConnection" key="connection">
 						<string key="label">playButton1:</string>
-						<reference key="source" ref="791934405"/>
+						<reference key="source" ref="617100733"/>
 						<reference key="destination" ref="372490531"/>
 						<int key="IBEventType">1</int>
 					</object>
@@ -638,7 +683,7 @@
 				<object class="IBConnectionRecord">
 					<object class="IBCocoaTouchEventConnection" key="connection">
 						<string key="label">stopButton1:</string>
-						<reference key="source" ref="791934405"/>
+						<reference key="source" ref="617100733"/>
 						<reference key="destination" ref="372490531"/>
 						<int key="IBEventType">8</int>
 					</object>
@@ -647,7 +692,7 @@
 				<object class="IBConnectionRecord">
 					<object class="IBCocoaTouchEventConnection" key="connection">
 						<string key="label">playButton1:</string>
-						<reference key="source" ref="707003065"/>
+						<reference key="source" ref="1033963915"/>
 						<reference key="destination" ref="372490531"/>
 						<int key="IBEventType">1</int>
 					</object>
@@ -656,7 +701,7 @@
 				<object class="IBConnectionRecord">
 					<object class="IBCocoaTouchEventConnection" key="connection">
 						<string key="label">playButton1:</string>
-						<reference key="source" ref="707003065"/>
+						<reference key="source" ref="1033963915"/>
 						<reference key="destination" ref="372490531"/>
 						<int key="IBEventType">3</int>
 					</object>
@@ -665,7 +710,7 @@
 				<object class="IBConnectionRecord">
 					<object class="IBCocoaTouchEventConnection" key="connection">
 						<string key="label">stopButton1:</string>
-						<reference key="source" ref="707003065"/>
+						<reference key="source" ref="1033963915"/>
 						<reference key="destination" ref="372490531"/>
 						<int key="IBEventType">7</int>
 					</object>
@@ -674,7 +719,7 @@
 				<object class="IBConnectionRecord">
 					<object class="IBCocoaTouchEventConnection" key="connection">
 						<string key="label">stopButton1:</string>
-						<reference key="source" ref="707003065"/>
+						<reference key="source" ref="1033963915"/>
 						<reference key="destination" ref="372490531"/>
 						<int key="IBEventType">8</int>
 					</object>
@@ -683,7 +728,7 @@
 				<object class="IBConnectionRecord">
 					<object class="IBCocoaTouchEventConnection" key="connection">
 						<string key="label">playButton1:</string>
-						<reference key="source" ref="707003065"/>
+						<reference key="source" ref="1033963915"/>
 						<reference key="destination" ref="372490531"/>
 						<int key="IBEventType">2</int>
 					</object>
@@ -692,7 +737,7 @@
 				<object class="IBConnectionRecord">
 					<object class="IBCocoaTouchEventConnection" key="connection">
 						<string key="label">playButton1:</string>
-						<reference key="source" ref="760341661"/>
+						<reference key="source" ref="739138708"/>
 						<reference key="destination" ref="372490531"/>
 						<int key="IBEventType">3</int>
 					</object>
@@ -701,7 +746,7 @@
 				<object class="IBConnectionRecord">
 					<object class="IBCocoaTouchEventConnection" key="connection">
 						<string key="label">stopButton1:</string>
-						<reference key="source" ref="760341661"/>
+						<reference key="source" ref="739138708"/>
 						<reference key="destination" ref="372490531"/>
 						<int key="IBEventType">7</int>
 					</object>
@@ -710,7 +755,7 @@
 				<object class="IBConnectionRecord">
 					<object class="IBCocoaTouchEventConnection" key="connection">
 						<string key="label">playButton1:</string>
-						<reference key="source" ref="760341661"/>
+						<reference key="source" ref="739138708"/>
 						<reference key="destination" ref="372490531"/>
 						<int key="IBEventType">2</int>
 					</object>
@@ -719,7 +764,7 @@
 				<object class="IBConnectionRecord">
 					<object class="IBCocoaTouchEventConnection" key="connection">
 						<string key="label">playButton1:</string>
-						<reference key="source" ref="760341661"/>
+						<reference key="source" ref="739138708"/>
 						<reference key="destination" ref="372490531"/>
 						<int key="IBEventType">1</int>
 					</object>
@@ -728,7 +773,7 @@
 				<object class="IBConnectionRecord">
 					<object class="IBCocoaTouchEventConnection" key="connection">
 						<string key="label">stopButton1:</string>
-						<reference key="source" ref="760341661"/>
+						<reference key="source" ref="739138708"/>
 						<reference key="destination" ref="372490531"/>
 						<int key="IBEventType">8</int>
 					</object>
@@ -737,7 +782,7 @@
 				<object class="IBConnectionRecord">
 					<object class="IBCocoaTouchEventConnection" key="connection">
 						<string key="label">playButton1:</string>
-						<reference key="source" ref="491033347"/>
+						<reference key="source" ref="138060706"/>
 						<reference key="destination" ref="372490531"/>
 						<int key="IBEventType">3</int>
 					</object>
@@ -746,7 +791,7 @@
 				<object class="IBConnectionRecord">
 					<object class="IBCocoaTouchEventConnection" key="connection">
 						<string key="label">stopButton1:</string>
-						<reference key="source" ref="491033347"/>
+						<reference key="source" ref="138060706"/>
 						<reference key="destination" ref="372490531"/>
 						<int key="IBEventType">7</int>
 					</object>
@@ -755,7 +800,7 @@
 				<object class="IBConnectionRecord">
 					<object class="IBCocoaTouchEventConnection" key="connection">
 						<string key="label">playButton1:</string>
-						<reference key="source" ref="491033347"/>
+						<reference key="source" ref="138060706"/>
 						<reference key="destination" ref="372490531"/>
 						<int key="IBEventType">2</int>
 					</object>
@@ -764,7 +809,7 @@
 				<object class="IBConnectionRecord">
 					<object class="IBCocoaTouchEventConnection" key="connection">
 						<string key="label">playButton1:</string>
-						<reference key="source" ref="491033347"/>
+						<reference key="source" ref="138060706"/>
 						<reference key="destination" ref="372490531"/>
 						<int key="IBEventType">1</int>
 					</object>
@@ -773,7 +818,7 @@
 				<object class="IBConnectionRecord">
 					<object class="IBCocoaTouchEventConnection" key="connection">
 						<string key="label">stopButton1:</string>
-						<reference key="source" ref="491033347"/>
+						<reference key="source" ref="138060706"/>
 						<reference key="destination" ref="372490531"/>
 						<int key="IBEventType">8</int>
 					</object>
@@ -782,7 +827,7 @@
 				<object class="IBConnectionRecord">
 					<object class="IBCocoaTouchEventConnection" key="connection">
 						<string key="label">playButton1:</string>
-						<reference key="source" ref="854709401"/>
+						<reference key="source" ref="84348640"/>
 						<reference key="destination" ref="372490531"/>
 						<int key="IBEventType">1</int>
 					</object>
@@ -791,7 +836,7 @@
 				<object class="IBConnectionRecord">
 					<object class="IBCocoaTouchEventConnection" key="connection">
 						<string key="label">stopButton1:</string>
-						<reference key="source" ref="854709401"/>
+						<reference key="source" ref="84348640"/>
 						<reference key="destination" ref="372490531"/>
 						<int key="IBEventType">7</int>
 					</object>
@@ -800,7 +845,7 @@
 				<object class="IBConnectionRecord">
 					<object class="IBCocoaTouchEventConnection" key="connection">
 						<string key="label">stopButton1:</string>
-						<reference key="source" ref="854709401"/>
+						<reference key="source" ref="84348640"/>
 						<reference key="destination" ref="372490531"/>
 						<int key="IBEventType">8</int>
 					</object>
@@ -809,7 +854,7 @@
 				<object class="IBConnectionRecord">
 					<object class="IBCocoaTouchEventConnection" key="connection">
 						<string key="label">playButton1:</string>
-						<reference key="source" ref="854709401"/>
+						<reference key="source" ref="84348640"/>
 						<reference key="destination" ref="372490531"/>
 						<int key="IBEventType">2</int>
 					</object>
@@ -818,7 +863,7 @@
 				<object class="IBConnectionRecord">
 					<object class="IBCocoaTouchEventConnection" key="connection">
 						<string key="label">playButton1:</string>
-						<reference key="source" ref="854709401"/>
+						<reference key="source" ref="84348640"/>
 						<reference key="destination" ref="372490531"/>
 						<int key="IBEventType">3</int>
 					</object>
@@ -827,7 +872,7 @@
 				<object class="IBConnectionRecord">
 					<object class="IBCocoaTouchEventConnection" key="connection">
 						<string key="label">stopButton1:</string>
-						<reference key="source" ref="925484567"/>
+						<reference key="source" ref="70913080"/>
 						<reference key="destination" ref="372490531"/>
 						<int key="IBEventType">8</int>
 					</object>
@@ -836,7 +881,7 @@
 				<object class="IBConnectionRecord">
 					<object class="IBCocoaTouchEventConnection" key="connection">
 						<string key="label">playButton1:</string>
-						<reference key="source" ref="925484567"/>
+						<reference key="source" ref="70913080"/>
 						<reference key="destination" ref="372490531"/>
 						<int key="IBEventType">1</int>
 					</object>
@@ -845,7 +890,7 @@
 				<object class="IBConnectionRecord">
 					<object class="IBCocoaTouchEventConnection" key="connection">
 						<string key="label">playButton1:</string>
-						<reference key="source" ref="925484567"/>
+						<reference key="source" ref="70913080"/>
 						<reference key="destination" ref="372490531"/>
 						<int key="IBEventType">2</int>
 					</object>
@@ -854,7 +899,7 @@
 				<object class="IBConnectionRecord">
 					<object class="IBCocoaTouchEventConnection" key="connection">
 						<string key="label">playButton1:</string>
-						<reference key="source" ref="925484567"/>
+						<reference key="source" ref="70913080"/>
 						<reference key="destination" ref="372490531"/>
 						<int key="IBEventType">3</int>
 					</object>
@@ -863,7 +908,7 @@
 				<object class="IBConnectionRecord">
 					<object class="IBCocoaTouchEventConnection" key="connection">
 						<string key="label">stopButton1:</string>
-						<reference key="source" ref="925484567"/>
+						<reference key="source" ref="70913080"/>
 						<reference key="destination" ref="372490531"/>
 						<int key="IBEventType">7</int>
 					</object>
@@ -872,7 +917,7 @@
 				<object class="IBConnectionRecord">
 					<object class="IBCocoaTouchEventConnection" key="connection">
 						<string key="label">playButton1:</string>
-						<reference key="source" ref="588537839"/>
+						<reference key="source" ref="468071170"/>
 						<reference key="destination" ref="372490531"/>
 						<int key="IBEventType">1</int>
 					</object>
@@ -881,7 +926,7 @@
 				<object class="IBConnectionRecord">
 					<object class="IBCocoaTouchEventConnection" key="connection">
 						<string key="label">stopButton1:</string>
-						<reference key="source" ref="588537839"/>
+						<reference key="source" ref="468071170"/>
 						<reference key="destination" ref="372490531"/>
 						<int key="IBEventType">7</int>
 					</object>
@@ -890,7 +935,7 @@
 				<object class="IBConnectionRecord">
 					<object class="IBCocoaTouchEventConnection" key="connection">
 						<string key="label">playButton1:</string>
-						<reference key="source" ref="588537839"/>
+						<reference key="source" ref="468071170"/>
 						<reference key="destination" ref="372490531"/>
 						<int key="IBEventType">2</int>
 					</object>
@@ -899,7 +944,7 @@
 				<object class="IBConnectionRecord">
 					<object class="IBCocoaTouchEventConnection" key="connection">
 						<string key="label">playButton1:</string>
-						<reference key="source" ref="588537839"/>
+						<reference key="source" ref="468071170"/>
 						<reference key="destination" ref="372490531"/>
 						<int key="IBEventType">3</int>
 					</object>
@@ -908,7 +953,7 @@
 				<object class="IBConnectionRecord">
 					<object class="IBCocoaTouchEventConnection" key="connection">
 						<string key="label">stopButton1:</string>
-						<reference key="source" ref="588537839"/>
+						<reference key="source" ref="468071170"/>
 						<reference key="destination" ref="372490531"/>
 						<int key="IBEventType">8</int>
 					</object>
@@ -917,7 +962,7 @@
 				<object class="IBConnectionRecord">
 					<object class="IBCocoaTouchEventConnection" key="connection">
 						<string key="label">playButton1:</string>
-						<reference key="source" ref="914646764"/>
+						<reference key="source" ref="413556852"/>
 						<reference key="destination" ref="372490531"/>
 						<int key="IBEventType">2</int>
 					</object>
@@ -926,7 +971,7 @@
 				<object class="IBConnectionRecord">
 					<object class="IBCocoaTouchEventConnection" key="connection">
 						<string key="label">playButton1:</string>
-						<reference key="source" ref="914646764"/>
+						<reference key="source" ref="413556852"/>
 						<reference key="destination" ref="372490531"/>
 						<int key="IBEventType">1</int>
 					</object>
@@ -935,7 +980,7 @@
 				<object class="IBConnectionRecord">
 					<object class="IBCocoaTouchEventConnection" key="connection">
 						<string key="label">stopButton1:</string>
-						<reference key="source" ref="914646764"/>
+						<reference key="source" ref="413556852"/>
 						<reference key="destination" ref="372490531"/>
 						<int key="IBEventType">8</int>
 					</object>
@@ -944,7 +989,7 @@
 				<object class="IBConnectionRecord">
 					<object class="IBCocoaTouchEventConnection" key="connection">
 						<string key="label">stopButton1:</string>
-						<reference key="source" ref="914646764"/>
+						<reference key="source" ref="413556852"/>
 						<reference key="destination" ref="372490531"/>
 						<int key="IBEventType">7</int>
 					</object>
@@ -953,7 +998,7 @@
 				<object class="IBConnectionRecord">
 					<object class="IBCocoaTouchEventConnection" key="connection">
 						<string key="label">playButton1:</string>
-						<reference key="source" ref="914646764"/>
+						<reference key="source" ref="413556852"/>
 						<reference key="destination" ref="372490531"/>
 						<int key="IBEventType">3</int>
 					</object>
@@ -961,53 +1006,53 @@
 				</object>
 				<object class="IBConnectionRecord">
 					<object class="IBCocoaTouchEventConnection" key="connection">
-						<string key="label">playButton1:</string>
-						<reference key="source" ref="688679689"/>
-						<reference key="destination" ref="372490531"/>
-						<int key="IBEventType">3</int>
-					</object>
-					<int key="connectionID">240</int>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBCocoaTouchEventConnection" key="connection">
-						<string key="label">playButton1:</string>
-						<reference key="source" ref="688679689"/>
-						<reference key="destination" ref="372490531"/>
-						<int key="IBEventType">2</int>
-					</object>
-					<int key="connectionID">241</int>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBCocoaTouchEventConnection" key="connection">
-						<string key="label">playButton1:</string>
-						<reference key="source" ref="688679689"/>
+						<string key="label">playButton2:</string>
+						<reference key="source" ref="390775885"/>
 						<reference key="destination" ref="372490531"/>
 						<int key="IBEventType">1</int>
 					</object>
-					<int key="connectionID">242</int>
+					<int key="connectionID">280</int>
 				</object>
 				<object class="IBConnectionRecord">
 					<object class="IBCocoaTouchEventConnection" key="connection">
-						<string key="label">stopButton1:</string>
-						<reference key="source" ref="688679689"/>
+						<string key="label">playButton2:</string>
+						<reference key="source" ref="390775885"/>
 						<reference key="destination" ref="372490531"/>
-						<int key="IBEventType">8</int>
+						<int key="IBEventType">2</int>
 					</object>
-					<int key="connectionID">243</int>
+					<int key="connectionID">281</int>
 				</object>
 				<object class="IBConnectionRecord">
 					<object class="IBCocoaTouchEventConnection" key="connection">
-						<string key="label">stopButton1:</string>
-						<reference key="source" ref="688679689"/>
+						<string key="label">playButton2:</string>
+						<reference key="source" ref="390775885"/>
+						<reference key="destination" ref="372490531"/>
+						<int key="IBEventType">3</int>
+					</object>
+					<int key="connectionID">282</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBCocoaTouchEventConnection" key="connection">
+						<string key="label">stopButton2:</string>
+						<reference key="source" ref="390775885"/>
 						<reference key="destination" ref="372490531"/>
 						<int key="IBEventType">7</int>
 					</object>
-					<int key="connectionID">244</int>
+					<int key="connectionID">283</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBCocoaTouchEventConnection" key="connection">
+						<string key="label">stopButton2:</string>
+						<reference key="source" ref="390775885"/>
+						<reference key="destination" ref="372490531"/>
+						<int key="IBEventType">8</int>
+					</object>
+					<int key="connectionID">284</int>
 				</object>
 				<object class="IBConnectionRecord">
 					<object class="IBCocoaTouchEventConnection" key="connection">
 						<string key="label">stopButton1:</string>
-						<reference key="source" ref="131373032"/>
+						<reference key="source" ref="453267310"/>
 						<reference key="destination" ref="372490531"/>
 						<int key="IBEventType">7</int>
 					</object>
@@ -1016,7 +1061,7 @@
 				<object class="IBConnectionRecord">
 					<object class="IBCocoaTouchEventConnection" key="connection">
 						<string key="label">playButton1:</string>
-						<reference key="source" ref="131373032"/>
+						<reference key="source" ref="453267310"/>
 						<reference key="destination" ref="372490531"/>
 						<int key="IBEventType">2</int>
 					</object>
@@ -1025,7 +1070,7 @@
 				<object class="IBConnectionRecord">
 					<object class="IBCocoaTouchEventConnection" key="connection">
 						<string key="label">playButton1:</string>
-						<reference key="source" ref="131373032"/>
+						<reference key="source" ref="453267310"/>
 						<reference key="destination" ref="372490531"/>
 						<int key="IBEventType">3</int>
 					</object>
@@ -1034,7 +1079,7 @@
 				<object class="IBConnectionRecord">
 					<object class="IBCocoaTouchEventConnection" key="connection">
 						<string key="label">playButton1:</string>
-						<reference key="source" ref="131373032"/>
+						<reference key="source" ref="453267310"/>
 						<reference key="destination" ref="372490531"/>
 						<int key="IBEventType">1</int>
 					</object>
@@ -1043,7 +1088,7 @@
 				<object class="IBConnectionRecord">
 					<object class="IBCocoaTouchEventConnection" key="connection">
 						<string key="label">stopButton1:</string>
-						<reference key="source" ref="131373032"/>
+						<reference key="source" ref="453267310"/>
 						<reference key="destination" ref="372490531"/>
 						<int key="IBEventType">8</int>
 					</object>
@@ -1051,53 +1096,53 @@
 				</object>
 				<object class="IBConnectionRecord">
 					<object class="IBCocoaTouchEventConnection" key="connection">
-						<string key="label">playButton1:</string>
-						<reference key="source" ref="513278060"/>
-						<reference key="destination" ref="372490531"/>
-						<int key="IBEventType">3</int>
-					</object>
-					<int key="connectionID">252</int>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBCocoaTouchEventConnection" key="connection">
-						<string key="label">stopButton1:</string>
-						<reference key="source" ref="513278060"/>
-						<reference key="destination" ref="372490531"/>
-						<int key="IBEventType">8</int>
-					</object>
-					<int key="connectionID">253</int>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBCocoaTouchEventConnection" key="connection">
-						<string key="label">playButton1:</string>
-						<reference key="source" ref="513278060"/>
-						<reference key="destination" ref="372490531"/>
-						<int key="IBEventType">2</int>
-					</object>
-					<int key="connectionID">254</int>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBCocoaTouchEventConnection" key="connection">
-						<string key="label">stopButton1:</string>
-						<reference key="source" ref="513278060"/>
-						<reference key="destination" ref="372490531"/>
-						<int key="IBEventType">7</int>
-					</object>
-					<int key="connectionID">255</int>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBCocoaTouchEventConnection" key="connection">
-						<string key="label">playButton1:</string>
-						<reference key="source" ref="513278060"/>
+						<string key="label">playButton3:</string>
+						<reference key="source" ref="910086768"/>
 						<reference key="destination" ref="372490531"/>
 						<int key="IBEventType">1</int>
 					</object>
-					<int key="connectionID">256</int>
+					<int key="connectionID">285</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBCocoaTouchEventConnection" key="connection">
+						<string key="label">playButton3:</string>
+						<reference key="source" ref="910086768"/>
+						<reference key="destination" ref="372490531"/>
+						<int key="IBEventType">2</int>
+					</object>
+					<int key="connectionID">287</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBCocoaTouchEventConnection" key="connection">
+						<string key="label">playButton3:</string>
+						<reference key="source" ref="910086768"/>
+						<reference key="destination" ref="372490531"/>
+						<int key="IBEventType">3</int>
+					</object>
+					<int key="connectionID">288</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBCocoaTouchEventConnection" key="connection">
+						<string key="label">stopButton3:</string>
+						<reference key="source" ref="910086768"/>
+						<reference key="destination" ref="372490531"/>
+						<int key="IBEventType">7</int>
+					</object>
+					<int key="connectionID">290</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBCocoaTouchEventConnection" key="connection">
+						<string key="label">stopButton3:</string>
+						<reference key="source" ref="910086768"/>
+						<reference key="destination" ref="372490531"/>
+						<int key="IBEventType">8</int>
+					</object>
+					<int key="connectionID">291</int>
 				</object>
 				<object class="IBConnectionRecord">
 					<object class="IBCocoaTouchEventConnection" key="connection">
 						<string key="label">playButton1:</string>
-						<reference key="source" ref="597287917"/>
+						<reference key="source" ref="331192053"/>
 						<reference key="destination" ref="372490531"/>
 						<int key="IBEventType">1</int>
 					</object>
@@ -1106,7 +1151,7 @@
 				<object class="IBConnectionRecord">
 					<object class="IBCocoaTouchEventConnection" key="connection">
 						<string key="label">stopButton1:</string>
-						<reference key="source" ref="597287917"/>
+						<reference key="source" ref="331192053"/>
 						<reference key="destination" ref="372490531"/>
 						<int key="IBEventType">7</int>
 					</object>
@@ -1115,7 +1160,7 @@
 				<object class="IBConnectionRecord">
 					<object class="IBCocoaTouchEventConnection" key="connection">
 						<string key="label">playButton1:</string>
-						<reference key="source" ref="597287917"/>
+						<reference key="source" ref="331192053"/>
 						<reference key="destination" ref="372490531"/>
 						<int key="IBEventType">3</int>
 					</object>
@@ -1124,7 +1169,7 @@
 				<object class="IBConnectionRecord">
 					<object class="IBCocoaTouchEventConnection" key="connection">
 						<string key="label">stopButton1:</string>
-						<reference key="source" ref="597287917"/>
+						<reference key="source" ref="331192053"/>
 						<reference key="destination" ref="372490531"/>
 						<int key="IBEventType">8</int>
 					</object>
@@ -1133,7 +1178,7 @@
 				<object class="IBConnectionRecord">
 					<object class="IBCocoaTouchEventConnection" key="connection">
 						<string key="label">playButton1:</string>
-						<reference key="source" ref="597287917"/>
+						<reference key="source" ref="331192053"/>
 						<reference key="destination" ref="372490531"/>
 						<int key="IBEventType">2</int>
 					</object>
@@ -1142,7 +1187,7 @@
 				<object class="IBConnectionRecord">
 					<object class="IBCocoaTouchEventConnection" key="connection">
 						<string key="label">playButton1:</string>
-						<reference key="source" ref="177117443"/>
+						<reference key="source" ref="358534214"/>
 						<reference key="destination" ref="372490531"/>
 						<int key="IBEventType">2</int>
 					</object>
@@ -1151,7 +1196,7 @@
 				<object class="IBConnectionRecord">
 					<object class="IBCocoaTouchEventConnection" key="connection">
 						<string key="label">stopButton1:</string>
-						<reference key="source" ref="177117443"/>
+						<reference key="source" ref="358534214"/>
 						<reference key="destination" ref="372490531"/>
 						<int key="IBEventType">7</int>
 					</object>
@@ -1160,7 +1205,7 @@
 				<object class="IBConnectionRecord">
 					<object class="IBCocoaTouchEventConnection" key="connection">
 						<string key="label">stopButton1:</string>
-						<reference key="source" ref="177117443"/>
+						<reference key="source" ref="358534214"/>
 						<reference key="destination" ref="372490531"/>
 						<int key="IBEventType">8</int>
 					</object>
@@ -1169,7 +1214,7 @@
 				<object class="IBConnectionRecord">
 					<object class="IBCocoaTouchEventConnection" key="connection">
 						<string key="label">playButton1:</string>
-						<reference key="source" ref="177117443"/>
+						<reference key="source" ref="358534214"/>
 						<reference key="destination" ref="372490531"/>
 						<int key="IBEventType">1</int>
 					</object>
@@ -1178,7 +1223,7 @@
 				<object class="IBConnectionRecord">
 					<object class="IBCocoaTouchEventConnection" key="connection">
 						<string key="label">playButton1:</string>
-						<reference key="source" ref="177117443"/>
+						<reference key="source" ref="358534214"/>
 						<reference key="destination" ref="372490531"/>
 						<int key="IBEventType">3</int>
 					</object>
@@ -1186,48 +1231,48 @@
 				</object>
 				<object class="IBConnectionRecord">
 					<object class="IBCocoaTouchEventConnection" key="connection">
-						<string key="label">stopButton1:</string>
-						<reference key="source" ref="487672012"/>
-						<reference key="destination" ref="372490531"/>
-						<int key="IBEventType">8</int>
-					</object>
-					<int key="connectionID">270</int>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBCocoaTouchEventConnection" key="connection">
-						<string key="label">playButton1:</string>
-						<reference key="source" ref="487672012"/>
-						<reference key="destination" ref="372490531"/>
-						<int key="IBEventType">3</int>
-					</object>
-					<int key="connectionID">271</int>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBCocoaTouchEventConnection" key="connection">
-						<string key="label">playButton1:</string>
-						<reference key="source" ref="487672012"/>
+						<string key="label">playButton4:</string>
+						<reference key="source" ref="498120537"/>
 						<reference key="destination" ref="372490531"/>
 						<int key="IBEventType">1</int>
 					</object>
-					<int key="connectionID">272</int>
+					<int key="connectionID">295</int>
 				</object>
 				<object class="IBConnectionRecord">
 					<object class="IBCocoaTouchEventConnection" key="connection">
-						<string key="label">stopButton1:</string>
-						<reference key="source" ref="487672012"/>
-						<reference key="destination" ref="372490531"/>
-						<int key="IBEventType">7</int>
-					</object>
-					<int key="connectionID">273</int>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBCocoaTouchEventConnection" key="connection">
-						<string key="label">playButton1:</string>
-						<reference key="source" ref="487672012"/>
+						<string key="label">playButton4:</string>
+						<reference key="source" ref="498120537"/>
 						<reference key="destination" ref="372490531"/>
 						<int key="IBEventType">2</int>
 					</object>
-					<int key="connectionID">274</int>
+					<int key="connectionID">296</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBCocoaTouchEventConnection" key="connection">
+						<string key="label">playButton4:</string>
+						<reference key="source" ref="498120537"/>
+						<reference key="destination" ref="372490531"/>
+						<int key="IBEventType">3</int>
+					</object>
+					<int key="connectionID">297</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBCocoaTouchEventConnection" key="connection">
+						<string key="label">stopButton4:</string>
+						<reference key="source" ref="498120537"/>
+						<reference key="destination" ref="372490531"/>
+						<int key="IBEventType">7</int>
+					</object>
+					<int key="connectionID">298</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBCocoaTouchEventConnection" key="connection">
+						<string key="label">stopButton4:</string>
+						<reference key="source" ref="498120537"/>
+						<reference key="destination" ref="372490531"/>
+						<int key="IBEventType">8</int>
+					</object>
+					<int key="connectionID">299</int>
 				</object>
 			</array>
 			<object class="IBMutableOrderedSet" key="objectRecords">
@@ -1257,22 +1302,22 @@
 							<reference ref="194557966"/>
 							<reference ref="83159960"/>
 							<reference ref="482261181"/>
-							<reference ref="748661334"/>
-							<reference ref="674366281"/>
-							<reference ref="791934405"/>
-							<reference ref="707003065"/>
-							<reference ref="760341661"/>
-							<reference ref="491033347"/>
-							<reference ref="854709401"/>
-							<reference ref="925484567"/>
-							<reference ref="588537839"/>
-							<reference ref="914646764"/>
-							<reference ref="688679689"/>
-							<reference ref="131373032"/>
-							<reference ref="513278060"/>
-							<reference ref="597287917"/>
-							<reference ref="177117443"/>
-							<reference ref="487672012"/>
+							<reference ref="637753482"/>
+							<reference ref="279289692"/>
+							<reference ref="617100733"/>
+							<reference ref="1033963915"/>
+							<reference ref="739138708"/>
+							<reference ref="138060706"/>
+							<reference ref="84348640"/>
+							<reference ref="70913080"/>
+							<reference ref="468071170"/>
+							<reference ref="413556852"/>
+							<reference ref="910086768"/>
+							<reference ref="331192053"/>
+							<reference ref="358534214"/>
+							<reference ref="498120537"/>
+							<reference ref="453267310"/>
+							<reference ref="390775885"/>
 						</array>
 						<reference key="parent" ref="0"/>
 					</object>
@@ -1298,82 +1343,82 @@
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">143</int>
-						<reference key="object" ref="748661334"/>
+						<reference key="object" ref="637753482"/>
 						<reference key="parent" ref="774585933"/>
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">185</int>
-						<reference key="object" ref="674366281"/>
+						<reference key="object" ref="279289692"/>
 						<reference key="parent" ref="774585933"/>
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">191</int>
-						<reference key="object" ref="791934405"/>
+						<reference key="object" ref="617100733"/>
 						<reference key="parent" ref="774585933"/>
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">197</int>
-						<reference key="object" ref="707003065"/>
+						<reference key="object" ref="1033963915"/>
 						<reference key="parent" ref="774585933"/>
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">203</int>
-						<reference key="object" ref="760341661"/>
+						<reference key="object" ref="739138708"/>
 						<reference key="parent" ref="774585933"/>
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">209</int>
-						<reference key="object" ref="491033347"/>
+						<reference key="object" ref="138060706"/>
 						<reference key="parent" ref="774585933"/>
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">215</int>
-						<reference key="object" ref="854709401"/>
+						<reference key="object" ref="84348640"/>
 						<reference key="parent" ref="774585933"/>
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">221</int>
-						<reference key="object" ref="925484567"/>
+						<reference key="object" ref="70913080"/>
 						<reference key="parent" ref="774585933"/>
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">227</int>
-						<reference key="object" ref="588537839"/>
+						<reference key="object" ref="468071170"/>
 						<reference key="parent" ref="774585933"/>
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">233</int>
-						<reference key="object" ref="914646764"/>
+						<reference key="object" ref="413556852"/>
 						<reference key="parent" ref="774585933"/>
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">239</int>
-						<reference key="object" ref="688679689"/>
+						<reference key="object" ref="390775885"/>
 						<reference key="parent" ref="774585933"/>
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">245</int>
-						<reference key="object" ref="131373032"/>
+						<reference key="object" ref="453267310"/>
 						<reference key="parent" ref="774585933"/>
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">251</int>
-						<reference key="object" ref="513278060"/>
+						<reference key="object" ref="910086768"/>
 						<reference key="parent" ref="774585933"/>
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">257</int>
-						<reference key="object" ref="597287917"/>
+						<reference key="object" ref="331192053"/>
 						<reference key="parent" ref="774585933"/>
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">263</int>
-						<reference key="object" ref="177117443"/>
+						<reference key="object" ref="358534214"/>
 						<reference key="parent" ref="774585933"/>
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">269</int>
-						<reference key="object" ref="487672012"/>
+						<reference key="object" ref="498120537"/>
 						<reference key="parent" ref="774585933"/>
 					</object>
 				</array>
@@ -1409,9 +1454,203 @@
 			<nil key="activeLocalization"/>
 			<dictionary class="NSMutableDictionary" key="localizations"/>
 			<nil key="sourceID"/>
-			<int key="maxID">274</int>
+			<int key="maxID">300</int>
 		</object>
-		<object class="IBClassDescriber" key="IBDocument.Classes"/>
+		<object class="IBClassDescriber" key="IBDocument.Classes">
+			<array class="NSMutableArray" key="referencedPartialClassDescriptions">
+				<object class="IBPartialClassDescription">
+					<string key="className">MUS147ViewController</string>
+					<string key="superclassName">UIViewController</string>
+					<dictionary class="NSMutableDictionary" key="actions">
+						<string key="getCurrentLocation:">id</string>
+						<string key="playButton1:">id</string>
+						<string key="playButton2:">id</string>
+						<string key="playButton3:">id</string>
+						<string key="playButton4:">id</string>
+						<string key="playView1:">id</string>
+						<string key="playView2:">id</string>
+						<string key="playView3:">id</string>
+						<string key="playView4:">id</string>
+						<string key="sampleRecStart:">id</string>
+						<string key="sampleRecStop:">id</string>
+						<string key="seqPlay:">id</string>
+						<string key="seqRec:">id</string>
+						<string key="seqRewind:">id</string>
+						<string key="seqStop:">id</string>
+						<string key="seqWave:">id</string>
+						<string key="setAmp0:">id</string>
+						<string key="setAmp1:">id</string>
+						<string key="setCutoff:">id</string>
+						<string key="setSpeed0:">id</string>
+						<string key="setSpeed1:">id</string>
+						<string key="stopButton1:">id</string>
+						<string key="stopButton2:">id</string>
+						<string key="stopButton3:">id</string>
+						<string key="stopButton4:">id</string>
+					</dictionary>
+					<dictionary class="NSMutableDictionary" key="actionInfosByName">
+						<object class="IBActionInfo" key="getCurrentLocation:">
+							<string key="name">getCurrentLocation:</string>
+							<string key="candidateClassName">id</string>
+						</object>
+						<object class="IBActionInfo" key="playButton1:">
+							<string key="name">playButton1:</string>
+							<string key="candidateClassName">id</string>
+						</object>
+						<object class="IBActionInfo" key="playButton2:">
+							<string key="name">playButton2:</string>
+							<string key="candidateClassName">id</string>
+						</object>
+						<object class="IBActionInfo" key="playButton3:">
+							<string key="name">playButton3:</string>
+							<string key="candidateClassName">id</string>
+						</object>
+						<object class="IBActionInfo" key="playButton4:">
+							<string key="name">playButton4:</string>
+							<string key="candidateClassName">id</string>
+						</object>
+						<object class="IBActionInfo" key="playView1:">
+							<string key="name">playView1:</string>
+							<string key="candidateClassName">id</string>
+						</object>
+						<object class="IBActionInfo" key="playView2:">
+							<string key="name">playView2:</string>
+							<string key="candidateClassName">id</string>
+						</object>
+						<object class="IBActionInfo" key="playView3:">
+							<string key="name">playView3:</string>
+							<string key="candidateClassName">id</string>
+						</object>
+						<object class="IBActionInfo" key="playView4:">
+							<string key="name">playView4:</string>
+							<string key="candidateClassName">id</string>
+						</object>
+						<object class="IBActionInfo" key="sampleRecStart:">
+							<string key="name">sampleRecStart:</string>
+							<string key="candidateClassName">id</string>
+						</object>
+						<object class="IBActionInfo" key="sampleRecStop:">
+							<string key="name">sampleRecStop:</string>
+							<string key="candidateClassName">id</string>
+						</object>
+						<object class="IBActionInfo" key="seqPlay:">
+							<string key="name">seqPlay:</string>
+							<string key="candidateClassName">id</string>
+						</object>
+						<object class="IBActionInfo" key="seqRec:">
+							<string key="name">seqRec:</string>
+							<string key="candidateClassName">id</string>
+						</object>
+						<object class="IBActionInfo" key="seqRewind:">
+							<string key="name">seqRewind:</string>
+							<string key="candidateClassName">id</string>
+						</object>
+						<object class="IBActionInfo" key="seqStop:">
+							<string key="name">seqStop:</string>
+							<string key="candidateClassName">id</string>
+						</object>
+						<object class="IBActionInfo" key="seqWave:">
+							<string key="name">seqWave:</string>
+							<string key="candidateClassName">id</string>
+						</object>
+						<object class="IBActionInfo" key="setAmp0:">
+							<string key="name">setAmp0:</string>
+							<string key="candidateClassName">id</string>
+						</object>
+						<object class="IBActionInfo" key="setAmp1:">
+							<string key="name">setAmp1:</string>
+							<string key="candidateClassName">id</string>
+						</object>
+						<object class="IBActionInfo" key="setCutoff:">
+							<string key="name">setCutoff:</string>
+							<string key="candidateClassName">id</string>
+						</object>
+						<object class="IBActionInfo" key="setSpeed0:">
+							<string key="name">setSpeed0:</string>
+							<string key="candidateClassName">id</string>
+						</object>
+						<object class="IBActionInfo" key="setSpeed1:">
+							<string key="name">setSpeed1:</string>
+							<string key="candidateClassName">id</string>
+						</object>
+						<object class="IBActionInfo" key="stopButton1:">
+							<string key="name">stopButton1:</string>
+							<string key="candidateClassName">id</string>
+						</object>
+						<object class="IBActionInfo" key="stopButton2:">
+							<string key="name">stopButton2:</string>
+							<string key="candidateClassName">id</string>
+						</object>
+						<object class="IBActionInfo" key="stopButton3:">
+							<string key="name">stopButton3:</string>
+							<string key="candidateClassName">id</string>
+						</object>
+						<object class="IBActionInfo" key="stopButton4:">
+							<string key="name">stopButton4:</string>
+							<string key="candidateClassName">id</string>
+						</object>
+					</dictionary>
+					<dictionary class="NSMutableDictionary" key="outlets">
+						<string key="amp0Slider">UISlider</string>
+						<string key="amp1Slider">UISlider</string>
+						<string key="button1">UIButton</string>
+						<string key="button2">UIButton</string>
+						<string key="button3">UIButton</string>
+						<string key="button4">UIButton</string>
+						<string key="cutoffSlider">UISlider</string>
+						<string key="speed0Slider">UISlider</string>
+						<string key="speed1Slider">UISlider</string>
+						<string key="waveSegmentedControl">UISegmentedControl</string>
+					</dictionary>
+					<dictionary class="NSMutableDictionary" key="toOneOutletInfosByName">
+						<object class="IBToOneOutletInfo" key="amp0Slider">
+							<string key="name">amp0Slider</string>
+							<string key="candidateClassName">UISlider</string>
+						</object>
+						<object class="IBToOneOutletInfo" key="amp1Slider">
+							<string key="name">amp1Slider</string>
+							<string key="candidateClassName">UISlider</string>
+						</object>
+						<object class="IBToOneOutletInfo" key="button1">
+							<string key="name">button1</string>
+							<string key="candidateClassName">UIButton</string>
+						</object>
+						<object class="IBToOneOutletInfo" key="button2">
+							<string key="name">button2</string>
+							<string key="candidateClassName">UIButton</string>
+						</object>
+						<object class="IBToOneOutletInfo" key="button3">
+							<string key="name">button3</string>
+							<string key="candidateClassName">UIButton</string>
+						</object>
+						<object class="IBToOneOutletInfo" key="button4">
+							<string key="name">button4</string>
+							<string key="candidateClassName">UIButton</string>
+						</object>
+						<object class="IBToOneOutletInfo" key="cutoffSlider">
+							<string key="name">cutoffSlider</string>
+							<string key="candidateClassName">UISlider</string>
+						</object>
+						<object class="IBToOneOutletInfo" key="speed0Slider">
+							<string key="name">speed0Slider</string>
+							<string key="candidateClassName">UISlider</string>
+						</object>
+						<object class="IBToOneOutletInfo" key="speed1Slider">
+							<string key="name">speed1Slider</string>
+							<string key="candidateClassName">UISlider</string>
+						</object>
+						<object class="IBToOneOutletInfo" key="waveSegmentedControl">
+							<string key="name">waveSegmentedControl</string>
+							<string key="candidateClassName">UISegmentedControl</string>
+						</object>
+					</dictionary>
+					<object class="IBClassDescriptionSource" key="sourceIdentifier">
+						<string key="majorKey">IBProjectSource</string>
+						<string key="minorKey">./Classes/MUS147ViewController.h</string>
+					</object>
+				</object>
+			</array>
+		</object>
 		<int key="IBDocument.localizationMode">0</int>
 		<string key="IBDocument.TargetRuntimeIdentifier">IBCocoaTouchFramework</string>
 		<object class="NSMutableDictionary" key="IBDocument.PluginDeclaredDependencies">

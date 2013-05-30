@@ -39,12 +39,42 @@ extern MUS147AQRecorder* aqr;
 
 -(IBAction)playButton1:(id)sender
 {
-    [aqp getVoice:1].playing = YES;
+    [aqp getVoice:0].playing = YES;
 }
 
 -(IBAction)stopButton1:(id)sender
 {
+    [aqp getVoice:0].playing = NO;
+}
+
+-(IBAction)playButton2:(id)sender
+{
+    [aqp getVoice:1].playing = YES;
+}
+
+-(IBAction)stopButton2:(id)sender
+{
     [aqp getVoice:1].playing = NO;
+}
+
+-(IBAction)playButton3:(id)sender
+{
+    [aqp getVoice:2].playing = YES;
+}
+
+-(IBAction)stopButton3:(id)sender
+{
+    [aqp getVoice:2].playing = NO;
+}
+
+-(IBAction)playButton4:(id)sender
+{
+    [aqp getVoice:3].playing = YES;
+}
+
+-(IBAction)stopButton4:(id)sender
+{
+    [aqp getVoice:3].playing = NO;
 }
 
 -(IBAction)setSpeed0:(id)sender

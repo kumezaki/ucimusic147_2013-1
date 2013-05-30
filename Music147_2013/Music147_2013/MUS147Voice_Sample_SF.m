@@ -10,16 +10,16 @@
 
 @implementation MUS147Voice_Sample_SF
 
--(id)init
+-(id)initWithFile:(NSString*)filename
 {
     self = [super init];
-    speed = 1.0;
-    amp = 1.0;
+    speed = 1;
+    amp = .5;
     playing = NO;
     
     /* get a path to the sound file */
     /* note that the file name and file extension are set here */
-    CFURLRef mSoundFileURLRef = CFBundleCopyResourceURL(CFBundleGetMainBundle(),filename,CFSTR("aif"),NULL);
+    CFURLRef mSoundFileURLRef = CFBundleCopyResourceURL(CFBundleGetMainBundle(),(__bridge CFStringRef)(filename),CFSTR("aif"),NULL);
     
     /* open the file and get the fileID */
     OSStatus result = noErr;
@@ -59,7 +59,7 @@
     
     if (ioNumPackets < numReadPackets)
     /* reset the filePos value to 0 to loop back to the beginning of the sound file */
-        filePos = 0;
+        filePos = ioNumPackets;
     else
     /* advance the member variable filePos to know where to read from next time this method is called */
         filePos += ioNumPackets;
