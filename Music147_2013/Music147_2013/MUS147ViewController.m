@@ -37,6 +37,16 @@ extern MUS147AQRecorder* aqr;
     // Dispose of any resources that can be recreated.
 }
 
+-(IBAction)playButton1:(id)sender
+{
+    [aqp getVoice:1].playing = YES;
+}
+
+-(IBAction)stopButton1:(id)sender
+{
+    [aqp getVoice:1].playing = NO;
+}
+
 -(IBAction)setSpeed0:(id)sender
 {
     [aqp getVoice:0].speed = speed0Slider.value * 2.;

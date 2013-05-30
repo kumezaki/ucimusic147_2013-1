@@ -19,6 +19,8 @@
 
 MUS147AQPlayer *aqp = nil;
 
+
+
 void MUS147AQBufferCallback(void *inUserData, AudioQueueRef inAQ, AudioQueueBufferRef inAQBuffer);
 
 void MUS147AQBufferCallback(void *inUserData, AudioQueueRef inAQ, AudioQueueBufferRef inAQBuffer)
@@ -63,6 +65,7 @@ void MUS147AQBufferCallback(void *inUserData, AudioQueueRef inAQ, AudioQueueBuff
 {
     self = [super init];
     
+    filesArray = [NSArray arrayWithObjects: @"beat21",@"beat22",@"beat23",@"beat24",@"beat25",@"beat26",@"beat27",@"beat28",@"beat29",nil];
 	aqp = self;
 
     // first allocate pools of voices ...
@@ -79,7 +82,12 @@ void MUS147AQBufferCallback(void *inUserData, AudioQueueRef inAQ, AudioQueueBuff
     for (UInt8 i = 0; i < kNumVoices; i++)
     {
         voice[i] = voice_samp_sf[0];
+        NSLog(@"%@",filesArray[i]);
     }
+    voice[0].filename = CFSTR("beat21");
+    voice[1].filename = CFSTR("beat22");
+    voice[2].filename = CFSTR("beat23");
+    voice[3].filename = CFSTR("beat24");
     
 //    for (UInt8 i = 0; i < kNumEffects; i++)
 //    {

@@ -14,6 +14,7 @@
 @synthesize amp;
 @synthesize speed;
 @synthesize playing;
+@synthesize filename;
 
 @synthesize env;
 

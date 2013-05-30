@@ -15,6 +15,8 @@ extern MUS147AQPlayer* aqp;
 
 @implementation MUS147View
 
+@synthesize vid;
+
 - (id)initWithFrame:(CGRect)frame
 {
     self = [super initWithFrame:frame];
@@ -56,7 +58,8 @@ extern MUS147AQPlayer* aqp;
 
 -(void)doTouchesOn:(NSSet *)touches withEvent:(UIEvent *)event
 {
-    [aqp getVoice:0].playing = YES;
+    [aqp getVoice:vid].playing = YES;
+    
 //    for (UITouch* t in touches)
 //    {
 //        SInt8 t_pos = [self getTouchPos:t];
@@ -97,7 +100,7 @@ extern MUS147AQPlayer* aqp;
 -(void)doTouchesOff:(NSSet *)touches withEvent:(UIEvent *)event
 {
     
-    [aqp getVoice:0].playing = NO;
+    [aqp getVoice:vid].playing = NO;
 //    for (UITouch* t in touches)
 //    {
 //        SInt8 t_pos = [self removeTouch:t];

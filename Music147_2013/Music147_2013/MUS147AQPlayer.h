@@ -12,6 +12,7 @@
 #import "MUS147AQShared.h"
 #import "MUS147Sequencer.h"
 #import "MUS147Voice.h"
+#import "MUS147View.h"
 
 @class MUS147Effect;
 @class MUS147Effect_BiQuad;
@@ -20,7 +21,7 @@
 #define kNumBuffers_Playback     3
 
 // number of possible playback voices
-#define kNumVoices          1
+#define kNumVoices          2
 
 // number of possible synth voices
 #define kNumVoices_Synth    4
@@ -45,9 +46,12 @@
 
     MUS147Voice* voice[kNumVoices];
     
+    MUS147View* view[kNumVoices];
+    
     MUS147Effect* effect[kNumEffects];
     
     MUS147Sequencer* sequencer;
+    NSArray *filesArray;
 }
 
 @property (nonatomic,readwrite) UInt8 synthVoiceType;
