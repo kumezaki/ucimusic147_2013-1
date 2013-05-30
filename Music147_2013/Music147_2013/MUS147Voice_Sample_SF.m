@@ -13,6 +13,9 @@
 -(id)init
 {
     self = [super init];
+    speed = 1.0;
+    amp = 1.0;
+    playing = NO;
     
     /* get a path to the sound file */
     /* note that the file name and file extension are set here */
@@ -38,6 +41,11 @@
 
 -(void)addToAudioBuffer:(Float64*)buffer :(UInt32)num_samples
 {
+    if(!playing)
+    {
+        filePos = 0;
+        return;
+    }
     /* set up arguments needed by AudioFileReadPackets */
     UInt32 numReadPackets = num_samples * speed;
 	UInt32 ioNumPackets = numReadPackets;

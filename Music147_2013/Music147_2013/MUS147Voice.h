@@ -15,6 +15,7 @@
     Float64 normPhase;
     Float64 freq;
     Float64 amp;
+    BOOL playing;
     
     Float64 speed;
 
@@ -24,6 +25,7 @@
 @property (readwrite) Float64 freq;
 @property (readwrite) Float64 amp;
 @property (readwrite) Float64 speed;
+@property (readwrite) BOOL playing;
 
 @property (retain,nonatomic) MUS147Envelope* env;
 

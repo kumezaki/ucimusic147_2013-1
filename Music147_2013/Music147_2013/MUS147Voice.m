@@ -13,6 +13,7 @@
 @synthesize freq;
 @synthesize amp;
 @synthesize speed;
+@synthesize playing;
 
 @synthesize env;
 

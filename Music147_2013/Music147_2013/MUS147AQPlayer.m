@@ -78,46 +78,30 @@ void MUS147AQBufferCallback(void *inUserData, AudioQueueRef inAQ, AudioQueueBuff
     // ... then assign them to array of active voices
     for (UInt8 i = 0; i < kNumVoices; i++)
     {
-        switch (i)
-        {
-            case 0:
-                voice[i] = voice_samp_mem[0];
-                break;
-            case 1:
-                voice[i] = voice_samp_sf[0];
-                break;
-            case 2:
-            case 3:
-            case 4:
-            case 5:
-                voice[i] = voice_synth_blit[i-2];
-                break;
-            default:
-                break;
-        }
+        voice[i] = voice_samp_sf[0];
     }
     
-    for (UInt8 i = 0; i < kNumEffects; i++)
-    {
-        switch (i)
-        {
-            case 0:
-            {
-                MUS147Effect_BiQuad* bq = [[MUS147Effect_BiQuad alloc] init];
-                [bq biQuad_set:LPF:0.:5000.:kSR:1.0];
-                effect[i] = bq;
-                break;
-            }
-            case 1:
-                effect[i] = [[MUS147Effect_Delay alloc] init];
-                break;
-            case 2:
-                effect[i] = [[MUS147Effect_Limiter alloc] init];
-                break;
-            default:
-                break;
-        }
-    }
+//    for (UInt8 i = 0; i < kNumEffects; i++)
+//    {
+//        switch (i)
+//        {
+//            case 0:
+//            {
+//                MUS147Effect_BiQuad* bq = [[MUS147Effect_BiQuad alloc] init];
+//                [bq biQuad_set:LPF:0.:5000.:kSR:1.0];
+//                effect[i] = bq;
+//                break;
+//            }
+//            case 1:
+//                effect[i] = [[MUS147Effect_Delay alloc] init];
+//                break;
+//            case 2:
+//                effect[i] = [[MUS147Effect_Limiter alloc] init];
+//                break;
+//            default:
+//                break;
+//        }
+//    }
     
     sequencer = [[MUS147Sequencer alloc] init];
     
