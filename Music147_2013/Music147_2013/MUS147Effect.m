@@ -9,6 +9,7 @@
 #import "MUS147Effect.h"
 
 @implementation MUS147Effect
+@synthesize delayTime;
 
 -(void)processAudioBuffer:(Float64*)buffer :(UInt32)num_samples
 {

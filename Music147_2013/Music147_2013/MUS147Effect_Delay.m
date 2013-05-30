@@ -10,11 +10,11 @@
 
 @implementation MUS147Effect_Delay
 
--(id)init
+-(id)initWithDelayTime:(Float64)delay
 {
     self = [super init];
     
-    delayTime = 1.0;
+    delayTime = delay;
     delaySamples = delayTime * kSR;
     
     delayAmp = 0.5;

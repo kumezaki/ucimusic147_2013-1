@@ -13,6 +13,9 @@
 -(id)initWithFile:(NSString*)filename
 {
     self = [super init];
+    env = [[MUS147Envelope alloc] init];
+	env.attack = 0.50;
+	env.release = 1.50;
     speed = 1;
     amp = .5;
     playing = NO;

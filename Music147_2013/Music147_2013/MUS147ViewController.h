@@ -13,30 +13,32 @@
 @interface MUS147ViewController : UIViewController <CLLocationManagerDelegate> {
 
     // member variables here
-    IBOutlet UISlider* speed0Slider;
-    IBOutlet UISlider* amp0Slider;
-    IBOutlet UISlider* speed1Slider;
-    IBOutlet UISlider* amp1Slider;
+    IBOutlet UISlider* delaySlider;
     IBOutlet UISlider* cutoffSlider;
     IBOutlet UISegmentedControl* waveSegmentedControl;
     IBOutlet UIButton *button1;
     IBOutlet UIButton *button2;
     IBOutlet UIButton *button3;
     IBOutlet UIButton *button4;
-    
+    IBOutlet UIButton *button5;
+    IBOutlet UIButton *button6;
+    IBOutlet UIButton *button7;
+    IBOutlet UIButton *button8;
 }
 
 // methods here
 
--(IBAction)playView1:(id)sender;
--(IBAction)playView2:(id)sender;
--(IBAction)playView3:(id)sender;
--(IBAction)playView4:(id)sender;
+-(IBAction)playButton1:(id)sender;
+-(IBAction)playButton2:(id)sender;
+-(IBAction)playButton3:(id)sender;
+-(IBAction)playButton4:(id)sender;
 
--(IBAction)setSpeed0:(id)sender;
--(IBAction)setAmp0:(id)sender;
--(IBAction)setSpeed1:(id)sender;
--(IBAction)setAmp1:(id)sender;
+-(IBAction)playButton5:(id)sender;
+-(IBAction)playButton6:(id)sender;
+-(IBAction)playButton7:(id)sender;
+-(IBAction)playButton8:(id)sender;
+
+-(IBAction)setDelay:(id)sender;
 -(IBAction)setCutoff:(id)sender;
 
 -(IBAction)sampleRecStart:(id)sender;

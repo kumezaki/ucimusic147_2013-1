@@ -12,8 +12,23 @@
 
 @implementation MUS147Voice_Synth
 
+
+-(id)initWithFreq:(UInt64)frequency
+{
+    
+    self = [super init];
+    amp = 1.;
+    speed = 1.;
+    freq = frequency;
+    return self;
+}
+
 -(void)addToAudioBuffer:(Float64*)buffer :(UInt32)num_samples
 {
+    if(!playing)
+    {
+        return;
+    }
     // compute normalized angular frequency
     Float64 deltaNormPhase = freq / kSR;
     
@@ -26,15 +41,6 @@
         // advance the phase position
 		normPhase += deltaNormPhase;
     }
-}
-
--(id)initWithFreq:(UInt32)frequency
-{
-    
-    self = [super init];
-    
-    freq = frequency;
-    return self;
 }
 
 @end

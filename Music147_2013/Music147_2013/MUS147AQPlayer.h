@@ -21,7 +21,7 @@
 #define kNumBuffers_Playback     3
 
 // number of possible playback voices
-#define kNumVoices          4
+#define kNumVoices          8
 
 // number of possible synth voices
 #define kNumVoices_Synth    4
@@ -66,6 +66,9 @@
 -(MUS147Voice*)getRecordVoice;
 
 -(MUS147Effect_BiQuad*)getBiQuad;
+-(MUS147Effect*)getLimiter;
+-(MUS147Effect*)getDelay;
+-(void)setDelay:(Float64)value;
 
 -(void)reportElapsedFrames:(UInt32)num_frames;
 

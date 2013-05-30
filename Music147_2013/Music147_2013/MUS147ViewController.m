@@ -77,25 +77,55 @@ extern MUS147AQRecorder* aqr;
     [aqp getVoice:3].playing = NO;
 }
 
--(IBAction)setSpeed0:(id)sender
+-(IBAction)playButton5:(id)sender
 {
-    [aqp getVoice:0].speed = speed0Slider.value * 2.;
+    [aqp getVoice:4].playing = YES;
 }
 
--(IBAction)setAmp0:(id)sender
+-(IBAction)stopButton5:(id)sender
 {
-    [aqp getVoice:0].amp = amp0Slider.value;
+    [aqp getVoice:4].playing = NO;
 }
 
--(IBAction)setSpeed1:(id)sender
+-(IBAction)playButton6:(id)sender
 {
-    [aqp getVoice:1].speed = speed1Slider.value * 2.;
+    [aqp getVoice:5].playing = YES;
+}
+
+-(IBAction)stopButton6:(id)sender
+{
+    [aqp getVoice:5].playing = NO;
+}
+
+-(IBAction)playButton7:(id)sender
+{
+    [aqp getVoice:6].playing = YES;
+}
+
+-(IBAction)stopButton7:(id)sender
+{
+    [aqp getVoice:6].playing = NO;
+}
+
+-(IBAction)playButton8:(id)sender
+{
+    [aqp getVoice:7].playing = YES;
+}
+
+-(IBAction)stopButton8:(id)sender
+{
+    [aqp getVoice:7].playing = NO;
 }
 
 -(IBAction)setCutoff:(id)sender
 {
     MUS147Effect_BiQuad* bq = [aqp getBiQuad];
     [bq biQuad_set:LPF:-3.:(cutoffSlider.value * kSR / 2. - 1000.):kSR:0.25];
+}
+
+-(IBAction)setDelay:(id)sender
+{
+    [aqp setDelay:delaySlider.value];
 }
 
 -(IBAction)sampleRecStart:(id)sender
@@ -106,11 +136,6 @@ extern MUS147AQRecorder* aqr;
 -(IBAction)sampleRecStop:(id)sender
 {
     [aqr stop];
-}
-
--(IBAction)setAmp1:(id)sender
-{
-    [aqp getVoice:1].amp = amp1Slider.value;
 }
 
 -(IBAction)seqPlay:(id)sender
