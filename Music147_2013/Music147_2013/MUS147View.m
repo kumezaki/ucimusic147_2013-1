@@ -91,7 +91,7 @@ extern MUS147AQPlayer* aqp;
 //
 //        touch[0] = t;
 //    }
-//    [self setNeedsDisplay];
+    [self setNeedsDisplay];
 }
 
 -(void)doTouchesOff:(NSSet *)touches withEvent:(UIEvent *)event
