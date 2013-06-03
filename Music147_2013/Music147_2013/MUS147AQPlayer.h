@@ -20,7 +20,7 @@
 // number of buffers used by AQ system for playback
 #define kNumBuffers_Playback     3
 
-// number of possible playback voices
+// number of possible playback voices... add 1 for the background beat
 #define kNumVoices          16
 
 // number of possible synth voices
@@ -46,6 +46,8 @@
 
     MUS147Voice* voice[kNumVoices];
     
+    MUS147Voice* beat;
+    
     MUS147View* view[kNumVoices];
     
     MUS147Effect* effect[kNumEffects];
@@ -64,6 +66,7 @@
 -(MUS147Voice*)getVoice:(UInt8)pos;
 -(MUS147Voice*)getSynthVoice;
 -(MUS147Voice*)getRecordVoice;
+-(MUS147Voice*)getBeat;
 
 -(MUS147Effect_BiQuad*)getBiQuad;
 -(MUS147Effect*)getLimiter;

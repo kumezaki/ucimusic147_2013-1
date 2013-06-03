@@ -197,6 +197,18 @@ extern MUS147AQRecorder* aqr;
     [aqp getVoice:15].playing = NO;
 }
 
+-(IBAction)playBeat:(id)sender
+{
+    if(beatSwitch.isOn)
+        [aqp getBeat].playing = YES;
+    else    
+        [aqp getBeat].playing = NO;
+}
+
+-(IBAction)setBeat:(id)sender
+{
+    [aqp getBeat].speed = 2*(beatSlider.value) + .5;
+}
 
 -(IBAction)setCutoff:(id)sender
 {
@@ -207,6 +219,7 @@ extern MUS147AQRecorder* aqr;
 -(IBAction)setDelay:(id)sender
 {
     [aqp setDelay:delaySlider.value];
+    NSLog(@"%f", delaySlider.value);
 }
 
 -(IBAction)sampleRecStart:(id)sender

@@ -67,6 +67,12 @@ void MUS147AQBufferCallback(void *inUserData, AudioQueueRef inAQ, AudioQueueBuff
     
     // first allocate pools of voices ...
     //voice_samp_mem[0] = [[MUS147Voice_Sample_Mem alloc] init];
+    
+    //this is the background beat
+    
+    beat = [[MUS147Voice_Sample_SF alloc] initWithFile:@"beat"];
+    
+    //all button beats
     voice[0] = [[MUS147Voice_Sample_SF alloc] initWithFile:@"call"];
     voice[1] = [[MUS147Voice_Sample_SF alloc] initWithFile:@"crunk"];
     voice[2] = [[MUS147Voice_Sample_SF alloc] initWithFile:@"hiphop"];
@@ -86,6 +92,7 @@ void MUS147AQBufferCallback(void *inUserData, AudioQueueRef inAQ, AudioQueueBuff
     voice[13] = [[MUS147Voice_Synth alloc] initWithFreq:500];
     voice[14] = [[MUS147Voice_Synth alloc] initWithFreq:600];
     voice[15] = [[MUS147Voice_Synth alloc] initWithFreq:750];
+    
 
     for (UInt8 i = 0; i < kNumEffects; i++)
     {
@@ -188,6 +195,11 @@ void MUS147AQBufferCallback(void *inUserData, AudioQueueRef inAQ, AudioQueueBuff
     return voice[pos];
 }
 
+-(MUS147Voice*)getBeat
+{
+    return beat;
+}
+
 -(MUS147Effect*)getDelay
 {
     return effect[1];
@@ -254,6 +266,8 @@ void MUS147AQBufferCallback(void *inUserData, AudioQueueRef inAQ, AudioQueueBuff
     {
         [effect[i] processAudioBuffer:buffer:num_samples];
     }
+    
+    [beat addToAudioBuffer:buffer:num_samples];
 }
 
 @end

@@ -17,7 +17,7 @@
 {
     
     self = [super init];
-    amp = 1.;
+    amp = 0.50;
     speed = 1.;
     freq = frequency;
     return self;

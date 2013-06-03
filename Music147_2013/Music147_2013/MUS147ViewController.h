@@ -32,6 +32,8 @@
     IBOutlet UIButton *button14;
     IBOutlet UIButton *button15;
     IBOutlet UIButton *button16;
+    IBOutlet UISlider *beatSlider;
+    IBOutlet UISwitch *beatSwitch;
 }
 
 // methods here
@@ -69,6 +71,11 @@
 -(IBAction)stopButton14:(id)sender;
 -(IBAction)stopButton15:(id)sender;
 -(IBAction)stopButton16:(id)sender;
+
+-(IBAction)startBeat:(id)sender;
+-(IBAction)stopBeat:(id)sender;
+-(IBAction)setBeat:(id)sender;
+
 
 -(IBAction)setDelay:(id)sender;
 -(IBAction)setCutoff:(id)sender;
