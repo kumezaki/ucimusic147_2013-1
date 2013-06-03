@@ -117,6 +117,87 @@ extern MUS147AQRecorder* aqr;
     [aqp getVoice:7].playing = NO;
 }
 
+-(IBAction)playButton9:(id)sender
+{
+    [aqp getVoice:8].playing = YES;
+}
+
+-(IBAction)stopButton9:(id)sender
+{
+    [aqp getVoice:8].playing = NO;
+}
+
+-(IBAction)playButton10:(id)sender
+{
+    [aqp getVoice:9].playing = YES;
+}
+
+-(IBAction)stopButton10:(id)sender
+{
+    [aqp getVoice:9].playing = NO;
+}
+
+-(IBAction)playButton11:(id)sender
+{
+    [aqp getVoice:10].playing = YES;
+}
+
+-(IBAction)stopButton11:(id)sender
+{
+    [aqp getVoice:10].playing = NO;
+}
+
+-(IBAction)playButton12:(id)sender
+{
+    [aqp getVoice:11].playing = YES;
+}
+
+-(IBAction)stopButton12:(id)sender
+{
+    [aqp getVoice:11].playing = NO;
+}
+
+-(IBAction)playButton13:(id)sender
+{
+    [aqp getVoice:12].playing = YES;
+}
+
+-(IBAction)stopButton13:(id)sender
+{
+    [aqp getVoice:12].playing = NO;
+}
+
+-(IBAction)playButton14:(id)sender
+{
+    [aqp getVoice:13].playing = YES;
+}
+
+-(IBAction)stopButton14:(id)sender
+{
+    [aqp getVoice:13].playing = NO;
+}
+
+-(IBAction)playButton15:(id)sender
+{
+    [aqp getVoice:14].playing = YES;
+}
+
+-(IBAction)stopButton15:(id)sender
+{
+    [aqp getVoice:14].playing = NO;
+}
+
+-(IBAction)playButton16:(id)sender
+{
+    [aqp getVoice:15].playing = YES;
+}
+
+-(IBAction)stopButton16:(id)sender
+{
+    [aqp getVoice:15].playing = NO;
+}
+
+
 -(IBAction)setCutoff:(id)sender
 {
     MUS147Effect_BiQuad* bq = [aqp getBiQuad];

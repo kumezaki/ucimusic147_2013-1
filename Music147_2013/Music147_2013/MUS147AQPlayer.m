@@ -66,27 +66,27 @@ void MUS147AQBufferCallback(void *inUserData, AudioQueueRef inAQ, AudioQueueBuff
 	aqp = self;
     
     // first allocate pools of voices ...
-    voice_samp_mem[0] = [[MUS147Voice_Sample_Mem alloc] init];
-    voice[0] = [[MUS147Voice_Sample_SF alloc] initWithFile:@"Music147"];
-    voice[1] = [[MUS147Voice_Sample_SF alloc] initWithFile:@"scratch38"];
-    voice[2] = [[MUS147Voice_Sample_SF alloc] initWithFile:@"scratch11"];
-    voice[3] = [[MUS147Voice_Sample_SF alloc] initWithFile:@"scratch25"];
-    voice[4] = [[MUS147Voice_Synth alloc] initWithFreq:600];
-    voice[5] = [[MUS147Voice_Synth alloc] initWithFreq:900];
-    voice[6] = [[MUS147Voice_Synth alloc] initWithFreq:1200];
-    voice[7] = [[MUS147Voice_Synth alloc] initWithFreq:1500];
+    //voice_samp_mem[0] = [[MUS147Voice_Sample_Mem alloc] init];
+    voice[0] = [[MUS147Voice_Sample_SF alloc] initWithFile:@"call"];
+    voice[1] = [[MUS147Voice_Sample_SF alloc] initWithFile:@"crunk"];
+    voice[2] = [[MUS147Voice_Sample_SF alloc] initWithFile:@"hiphop"];
+    voice[3] = [[MUS147Voice_Sample_SF alloc] initWithFile:@"Music147"];
+    
+    voice[4] = [[MUS147Voice_Sample_SF alloc] initWithFile:@"VEC1"];
+    voice[5] = [[MUS147Voice_Sample_SF alloc] initWithFile:@"VEC2"];
+    voice[6] = [[MUS147Voice_Synth alloc] initWithFreq:1400];
+    voice[7] = [[MUS147Voice_Synth alloc] initWithFreq:1100];
+    
+    voice[8] = [[MUS147Voice_Synth alloc] initWithFreq:800];
+    voice[9] = [[MUS147Voice_Synth alloc] initWithFreq:1000];
+    voice[10] = [[MUS147Voice_Synth alloc] initWithFreq:1200];
+    voice[11] = [[MUS147Voice_Synth alloc] initWithFreq:1500];
+    
+    voice[12] = [[MUS147Voice_Synth alloc] initWithFreq:400];
+    voice[13] = [[MUS147Voice_Synth alloc] initWithFreq:500];
+    voice[14] = [[MUS147Voice_Synth alloc] initWithFreq:600];
+    voice[15] = [[MUS147Voice_Synth alloc] initWithFreq:750];
 
-    for (UInt8 i = 0; i < kNumVoices_Synth; i++)
-    {
-        voice_synth_blit[i] = [[MUS147Voice_BLIT alloc] init];
-        voice_synth_blitsaw[i] = [[MUS147Voice_BLITSaw alloc] init];
-    }
-    
-    for (UInt8 i = 0; i < kNumVoices; i++)
-    {
-        //voice[i] = voice[i];
-    }
-    
     for (UInt8 i = 0; i < kNumEffects; i++)
     {
         switch (i)
