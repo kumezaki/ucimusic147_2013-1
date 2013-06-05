@@ -76,22 +76,22 @@ void MUS147AQBufferCallback(void *inUserData, AudioQueueRef inAQ, AudioQueueBuff
     voice[0] = [[MUS147Voice_Sample_SF alloc] initWithFile:@"call"];
     voice[1] = [[MUS147Voice_Sample_SF alloc] initWithFile:@"crunk"];
     voice[2] = [[MUS147Voice_Sample_SF alloc] initWithFile:@"hiphop"];
-    voice[3] = [[MUS147Voice_Sample_SF alloc] initWithFile:@"Music147"];
+    voice[3] = [[MUS147Voice_Sample_SF alloc] initWithFile:@"VEC1"];
     
-    voice[4] = [[MUS147Voice_Sample_SF alloc] initWithFile:@"VEC1"];
-    voice[5] = [[MUS147Voice_Sample_SF alloc] initWithFile:@"VEC2"];
-    voice[6] = [[MUS147Voice_Synth alloc] initWithFreq:1400];
-    voice[7] = [[MUS147Voice_Synth alloc] initWithFreq:1100];
+    voice[4] = [[MUS147Voice_Synth alloc] initWithFreq:(32.7*4*2)];
+    voice[5] = [[MUS147Voice_Synth alloc] initWithFreq:(32.7*5*2)];
+    voice[6] = [[MUS147Voice_Synth alloc] initWithFreq:(32.7*6*2)];
+    voice[7] = [[MUS147Voice_Synth alloc] initWithFreq:(32.7*8*2)];
     
-    voice[8] = [[MUS147Voice_Synth alloc] initWithFreq:800];
-    voice[9] = [[MUS147Voice_Synth alloc] initWithFreq:1000];
-    voice[10] = [[MUS147Voice_Synth alloc] initWithFreq:1200];
-    voice[11] = [[MUS147Voice_Synth alloc] initWithFreq:1500];
+    voice[8] = [[MUS147Voice_Synth alloc] initWithFreq:(32.7*4*3)];
+    voice[9] = [[MUS147Voice_Synth alloc] initWithFreq:(32.7*5*3)];
+    voice[10] = [[MUS147Voice_Synth alloc] initWithFreq:(32.7*6*3)];
+    voice[11] = [[MUS147Voice_Synth alloc] initWithFreq:(32.7*8*3)];
     
-    voice[12] = [[MUS147Voice_Synth alloc] initWithFreq:400];
-    voice[13] = [[MUS147Voice_Synth alloc] initWithFreq:500];
-    voice[14] = [[MUS147Voice_Synth alloc] initWithFreq:600];
-    voice[15] = [[MUS147Voice_Synth alloc] initWithFreq:750];
+    voice[12] = [[MUS147Voice_Synth alloc] initWithFreq:(32.7*4*4)];
+    voice[13] = [[MUS147Voice_Synth alloc] initWithFreq:(32.7*5*4)];
+    voice[14] = [[MUS147Voice_Synth alloc] initWithFreq:(32.7*6*4)];
+    voice[15] = [[MUS147Voice_Synth alloc] initWithFreq:(32.7*8*4)];
     
 
     for (UInt8 i = 0; i < kNumEffects; i++)
