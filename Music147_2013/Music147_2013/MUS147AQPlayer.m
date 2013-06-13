@@ -76,7 +76,6 @@ void MUS147AQBufferCallback(void *inUserData, AudioQueueRef inAQ, AudioQueueBuff
     beat = [[MUS147Voice_Sample_SF alloc] initWithFile:@"beat"];
     
     //all button beats
-    
     //
     //*****************************************************************
     //Shivam Patel created all the sounds that required the right sample rate
