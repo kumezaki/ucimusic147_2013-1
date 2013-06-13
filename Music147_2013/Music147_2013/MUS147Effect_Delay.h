@@ -10,6 +10,10 @@
 
 @interface MUS147Effect_Delay : MUS147Effect
 
+//*****************************************************************
+//Sean Burke made the initWithDelayTime method
+//*****************************************************************
+
 -(id)initWithDelayTime:(Float64)delay;
 
 @end

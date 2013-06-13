@@ -11,15 +11,18 @@
 #import "MUS147Envelope.h"
 
 @interface MUS147Voice : NSObject {
-
+    
     Float64 normPhase;
     Float64 freq;
     Float64 amp;
+    //*****************************************************************
+    //Sean Burke added the playing BOOL
+    //*****************************************************************
     BOOL playing;
     CFStringRef filename;
     
     Float64 speed;
-
+    
     MUS147Envelope* env;
 }
 

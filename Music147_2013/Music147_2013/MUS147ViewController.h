@@ -11,7 +11,7 @@
 #import "MUS147View.h"
 
 @interface MUS147ViewController : UIViewController <CLLocationManagerDelegate> {
-
+    
     // member variables here
     IBOutlet UISlider* delaySlider;
     IBOutlet UISlider* cutoffSlider;
@@ -91,7 +91,5 @@
 -(IBAction)seqWave:(id)sender;
 
 -(IBAction)getCurrentLocation:(id)sender;
-
-+(void)segmentDelay:(UISegmentedControl*)segment:(UISlider*)slider;
 
 @end

@@ -10,6 +10,12 @@
 
 @implementation MUS147Voice_Sample_SF
 
+//*****************************************************************
+//Sean Burke made the initWithFileName to easily create a voice with a file
+// there is a warning, which I don't know how to fix, but it works!
+//it comes from using CFStringRef and CFSTR. Not sure...
+//*****************************************************************
+
 -(id)initWithFile:(NSString*)filename
 {
     self = [super init];

@@ -37,6 +37,13 @@ extern MUS147AQRecorder* aqr;
     // Dispose of any resources that can be recreated.
 }
 
+//*****************************************************************
+//Irvin Huang did all of the button connecting from the xib file.
+//
+//
+//*****************************************************************
+
+
 -(IBAction)playButton1:(id)sender
 {
     [aqp getVoice:0].playing = YES;
@@ -157,11 +164,14 @@ extern MUS147AQRecorder* aqr;
     [aqp getVoice:11].playing = NO;
 }
 
+//*****************************************************************
+//Sean Burke made chords this way
+//*****************************************************************
 -(IBAction)playButton13:(id)sender
 {
     [aqp getVoice:12].playing = YES;
     [aqp getVoice:8].playing = YES;
-
+    
 }
 
 -(IBAction)stopButton13:(id)sender
@@ -206,11 +216,17 @@ extern MUS147AQRecorder* aqr;
     [aqp getVoice:11].playing = NO;
 }
 
+//*****************************************************************
+//Shivam Patel did all of the playBeat, and set beat items this includes
+// the sound and bpm control
+//
+//*****************************************************************
+
 -(IBAction)playBeat:(id)sender
 {
     if(beatSwitch.isOn)
         [aqp getBeat].playing = YES;
-    else    
+    else
         [aqp getBeat].playing = NO;
 }
 
@@ -218,6 +234,13 @@ extern MUS147AQRecorder* aqr;
 {
     [aqp getBeat].speed = beatSlider.value;
 }
+
+
+//*****************************************************************
+//Sean Burke did all of the effects including finding the correct
+//denominations for .25, .5, 1, and 2 times the bpm for the delay time
+//
+//*****************************************************************
 
 -(IBAction)setCutoff:(id)sender
 {
@@ -246,12 +269,6 @@ extern MUS147AQRecorder* aqr;
         default:
             break;
     }
-}
-
-+(IBAction)segmentDelay:(id)sender
-{
-    
-    
 }
 
 -(IBAction)sampleRecStart:(id)sender
@@ -290,7 +307,7 @@ extern MUS147AQRecorder* aqr;
 }
 
 -(IBAction)getCurrentLocation:(id)sender {
-
+    
     locationManager.delegate = self;
     locationManager.desiredAccuracy = kCLLocationAccuracyBest;
     
@@ -316,8 +333,8 @@ extern MUS147AQRecorder* aqr;
         NSLog(@"%.8f", currentLocation.coordinate.longitude);
         NSLog(@"%.8f", currentLocation.coordinate.latitude);
     }
-
-     [locationManager stopUpdatingLocation];
+    
+    [locationManager stopUpdatingLocation];
 }
 
 @end
