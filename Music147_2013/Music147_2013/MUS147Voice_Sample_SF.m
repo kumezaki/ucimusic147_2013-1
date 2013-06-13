@@ -17,7 +17,7 @@
 	env.attack = 0.50;
 	env.release = 1.50;
     speed = 1;
-    amp = .5;
+    amp = 1;
     playing = NO;
     
     /* get a path to the sound file */
