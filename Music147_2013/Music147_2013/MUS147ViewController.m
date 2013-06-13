@@ -37,6 +37,13 @@ extern MUS147AQRecorder* aqr;
     // Dispose of any resources that can be recreated.
 }
 
+//*****************************************************************
+//Irvin Huang did all of the button connecting from the xib file.
+//
+//
+//*****************************************************************
+
+
 -(IBAction)playButton1:(id)sender
 {
     [aqp getVoice:0].playing = YES;
@@ -157,6 +164,9 @@ extern MUS147AQRecorder* aqr;
     [aqp getVoice:11].playing = NO;
 }
 
+//*****************************************************************
+//Sean Burke made chords this way
+//*****************************************************************
 -(IBAction)playButton13:(id)sender
 {
     [aqp getVoice:12].playing = YES;
@@ -206,6 +216,12 @@ extern MUS147AQRecorder* aqr;
     [aqp getVoice:11].playing = NO;
 }
 
+//*****************************************************************
+//Shivam Patel did all of the playBeat, and set beat items this includes
+// the sound and bpm control
+//
+//*****************************************************************
+
 -(IBAction)playBeat:(id)sender
 {
     if(beatSwitch.isOn)
@@ -218,6 +234,13 @@ extern MUS147AQRecorder* aqr;
 {
     [aqp getBeat].speed = beatSlider.value;
 }
+
+
+//*****************************************************************
+//Sean Burke did all of the effects including finding the correct
+//denominations for .25, .5, 1, and 2 times the bpm for the delay time
+//
+//*****************************************************************
 
 -(IBAction)setCutoff:(id)sender
 {
@@ -246,12 +269,6 @@ extern MUS147AQRecorder* aqr;
         default:
             break;
     }
-}
-
-+(IBAction)segmentDelay:(id)sender
-{
-    
-    
 }
 
 -(IBAction)sampleRecStart:(id)sender

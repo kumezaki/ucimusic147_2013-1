@@ -92,6 +92,4 @@
 
 -(IBAction)getCurrentLocation:(id)sender;
 
-+(void)segmentDelay:(UISegmentedControl*)segment:(UISlider*)slider;
-
 @end

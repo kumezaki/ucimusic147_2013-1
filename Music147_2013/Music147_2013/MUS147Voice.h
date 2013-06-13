@@ -15,6 +15,9 @@
     Float64 normPhase;
     Float64 freq;
     Float64 amp;
+    //*****************************************************************
+    //Sean Burke added the playing BOOL
+    //*****************************************************************
     BOOL playing;
     CFStringRef filename;
     

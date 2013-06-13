@@ -12,7 +12,10 @@
 
 @implementation MUS147Voice_Synth
 
-
+//*****************************************************************
+//Sean Burke made the initWithFreq function which creates a voice with
+// a frequency
+//*****************************************************************
 -(id)initWithFreq:(UInt64)frequency
 {
     

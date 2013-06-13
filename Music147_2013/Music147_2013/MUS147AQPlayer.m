@@ -73,10 +73,25 @@ void MUS147AQBufferCallback(void *inUserData, AudioQueueRef inAQ, AudioQueueBuff
     beat = [[MUS147Voice_Sample_SF alloc] initWithFile:@"beat"];
     
     //all button beats
+    
+    //
+    //*****************************************************************
+    //Shivam Patel created all the sounds that required the right sample rate
+    //and bit rate
+    //
+    //*****************************************************************
     voice[0] = [[MUS147Voice_Sample_SF alloc] initWithFile:@"call"];
     voice[1] = [[MUS147Voice_Sample_SF alloc] initWithFile:@"crunk"];
     voice[2] = [[MUS147Voice_Sample_SF alloc] initWithFile:@"hiphop"];
     voice[3] = [[MUS147Voice_Sample_SF alloc] initWithFile:@"VEC1"];
+    
+    //
+    //*****************************************************************
+    //Sean Burke did all of the synthesizing
+    //He also realized that the application could not support more than
+    //6 sound effects: the beat, plus 5 buttons with sound effects. That
+    // is why only 4 buttons and 1 beat are implimented.
+    //*****************************************************************
     
     voice[4] = [[MUS147Voice_Synth alloc] initWithFreq:(32.7*4*2)];
     voice[5] = [[MUS147Voice_Synth alloc] initWithFreq:(32.7*5*2)];
@@ -190,6 +205,11 @@ void MUS147AQBufferCallback(void *inUserData, AudioQueueRef inAQ, AudioQueueBuff
     }
 }
 
+//
+//*****************************************************************
+//Sean Burke added these methods
+//*****************************************************************
+
 -(MUS147Voice*)getVoice:(UInt8)pos
 {
     return voice[pos];
@@ -257,6 +277,8 @@ void MUS147AQBufferCallback(void *inUserData, AudioQueueRef inAQ, AudioQueueBuff
 
 -(void)doAudioBuffer:(Float64*)buffer :(UInt32)num_samples
 {
+    
+    
     for (UInt8 i = 0; i < kNumVoices; i++)
     {
         [voice[i] addToAudioBuffer:buffer:num_samples];
@@ -265,6 +287,11 @@ void MUS147AQBufferCallback(void *inUserData, AudioQueueRef inAQ, AudioQueueBuff
     [effect[0] processAudioBuffer:buffer:num_samples];
     [effect[1] processAudioBuffer:buffer:num_samples];
     [effect[2] processAudioBuffer:buffer:num_samples];
+    
+    //*****************************************************************
+    //Sean Burke made it so the delay effect does not affect the beat
+    //*****************************************************************
+    
     
     [beat addToAudioBuffer:buffer:num_samples];
     
