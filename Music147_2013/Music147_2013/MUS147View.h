@@ -16,7 +16,10 @@
 @interface MUS147View : UIView <UIAccelerometerDelegate> {
     UITouch* touch[kMaxNumTouches];
     MUS147Voice* voice[kMaxNumTouches];
+    UInt32 vid;
 }
+
+@property (readwrite) UInt32 vid;
 
 -(void)doTouchesOn:(NSSet *)touches withEvent:(UIEvent *)event;
 -(void)doTouchesOff:(NSSet *)touches withEvent:(UIEvent *)event;

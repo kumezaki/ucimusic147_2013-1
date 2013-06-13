@@ -16,6 +16,7 @@
     Float64 freq;
     Float64 amp;
     BOOL playing;
+    CFStringRef filename;
     
     Float64 speed;
 
@@ -26,6 +27,7 @@
 @property (readwrite) Float64 amp;
 @property (readwrite) Float64 speed;
 @property (readwrite) BOOL playing;
+@property (readwrite) CFStringRef filename;
 
 @property (retain,nonatomic) MUS147Envelope* env;
 

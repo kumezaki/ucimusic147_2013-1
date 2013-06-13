@@ -10,4 +10,6 @@
 
 @interface MUS147Effect_Delay : MUS147Effect
 
+-(id)initWithDelayTime:(Float64)delay;
+
 @end

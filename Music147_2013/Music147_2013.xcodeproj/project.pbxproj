@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		144AD909175C120000306320 /* beat.aif in Resources */ = {isa = PBXBuildFile; fileRef = 144AD900175C11FF00306320 /* beat.aif */; };
+		144AD90A175C120000306320 /* call.aif in Resources */ = {isa = PBXBuildFile; fileRef = 144AD901175C11FF00306320 /* call.aif */; };
+		144AD90B175C120000306320 /* crunk.aif in Resources */ = {isa = PBXBuildFile; fileRef = 144AD902175C120000306320 /* crunk.aif */; };
+		144AD90C175C120000306320 /* hiphop.aif in Resources */ = {isa = PBXBuildFile; fileRef = 144AD903175C120000306320 /* hiphop.aif */; };
+		144AD90D175C120000306320 /* Music147.aif in Resources */ = {isa = PBXBuildFile; fileRef = 144AD904175C120000306320 /* Music147.aif */; };
+		144AD90E175C120000306320 /* VEC1.aif in Resources */ = {isa = PBXBuildFile; fileRef = 144AD905175C120000306320 /* VEC1.aif */; };
+		144AD90F175C120000306320 /* VEC2.aif in Resources */ = {isa = PBXBuildFile; fileRef = 144AD906175C120000306320 /* VEC2.aif */; };
+		144AD910175C120000306320 /* VEC3.aif in Resources */ = {isa = PBXBuildFile; fileRef = 144AD907175C120000306320 /* VEC3.aif */; };
+		144AD911175C120000306320 /* VEC4.aif in Resources */ = {isa = PBXBuildFile; fileRef = 144AD908175C120000306320 /* VEC4.aif */; };
 		21297AE617343FC40089BAD8 /* MUS147View.m in Sources */ = {isa = PBXBuildFile; fileRef = 21297AE517343FC40089BAD8 /* MUS147View.m */; };
 		212CCF71174E742700F8ADA6 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 212CCF70174E742700F8ADA6 /* CoreLocation.framework */; };
 		2149E6AD17357B6F00734894 /* MUS147Effect_Delay.m in Sources */ = {isa = PBXBuildFile; fileRef = 2149E6AC17357B6F00734894 /* MUS147Effect_Delay.m */; };
@@ -36,7 +45,6 @@
 		21BD98DD172B0D6D00BFFBA6 /* MUS147Voice.m in Sources */ = {isa = PBXBuildFile; fileRef = 21BD98DC172B0D6D00BFFBA6 /* MUS147Voice.m */; };
 		21BD98E1172B1DA000BFFBA6 /* MUS147Voice_Synth.m in Sources */ = {isa = PBXBuildFile; fileRef = 21BD98E0172B1DA000BFFBA6 /* MUS147Voice_Synth.m */; };
 		21BD98E5172B1F2700BFFBA6 /* MUS147Voice_Sample.m in Sources */ = {isa = PBXBuildFile; fileRef = 21BD98E3172B1F2600BFFBA6 /* MUS147Voice_Sample.m */; };
-		21BD98E6172B1F2700BFFBA6 /* Music147.aif in Resources */ = {isa = PBXBuildFile; fileRef = 21BD98E4172B1F2600BFFBA6 /* Music147.aif */; };
 		21C078F91746AF8800FBB7BA /* MUS147Event_Touch.m in Sources */ = {isa = PBXBuildFile; fileRef = 21C078F81746AF8800FBB7BA /* MUS147Event_Touch.m */; };
 		E9B92E35173B22B10014404F /* MUS147Event.m in Sources */ = {isa = PBXBuildFile; fileRef = E9B92E30173B22B10014404F /* MUS147Event.m */; };
 		E9B92E36173B22B10014404F /* MUS147Sequence.m in Sources */ = {isa = PBXBuildFile; fileRef = E9B92E32173B22B10014404F /* MUS147Sequence.m */; };
@@ -44,6 +52,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		144AD900175C11FF00306320 /* beat.aif */ = {isa = PBXFileReference; lastKnownFileType = file; name = beat.aif; path = "AIFF samples/beat.aif"; sourceTree = "<group>"; };
+		144AD901175C11FF00306320 /* call.aif */ = {isa = PBXFileReference; lastKnownFileType = file; name = call.aif; path = "AIFF samples/call.aif"; sourceTree = "<group>"; };
+		144AD902175C120000306320 /* crunk.aif */ = {isa = PBXFileReference; lastKnownFileType = file; name = crunk.aif; path = "AIFF samples/crunk.aif"; sourceTree = "<group>"; };
+		144AD903175C120000306320 /* hiphop.aif */ = {isa = PBXFileReference; lastKnownFileType = file; name = hiphop.aif; path = "AIFF samples/hiphop.aif"; sourceTree = "<group>"; };
+		144AD904175C120000306320 /* Music147.aif */ = {isa = PBXFileReference; lastKnownFileType = file; name = Music147.aif; path = "AIFF samples/Music147.aif"; sourceTree = "<group>"; };
+		144AD905175C120000306320 /* VEC1.aif */ = {isa = PBXFileReference; lastKnownFileType = file; name = VEC1.aif; path = "AIFF samples/VEC1.aif"; sourceTree = "<group>"; };
+		144AD906175C120000306320 /* VEC2.aif */ = {isa = PBXFileReference; lastKnownFileType = file; name = VEC2.aif; path = "AIFF samples/VEC2.aif"; sourceTree = "<group>"; };
+		144AD907175C120000306320 /* VEC3.aif */ = {isa = PBXFileReference; lastKnownFileType = file; name = VEC3.aif; path = "AIFF samples/VEC3.aif"; sourceTree = "<group>"; };
+		144AD908175C120000306320 /* VEC4.aif */ = {isa = PBXFileReference; lastKnownFileType = file; name = VEC4.aif; path = "AIFF samples/VEC4.aif"; sourceTree = "<group>"; };
 		21297AE417343FC40089BAD8 /* MUS147View.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUS147View.h; sourceTree = "<group>"; };
 		21297AE517343FC40089BAD8 /* MUS147View.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUS147View.m; sourceTree = "<group>"; };
 		212CCF70174E742700F8ADA6 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
@@ -95,7 +112,6 @@
 		21BD98E0172B1DA000BFFBA6 /* MUS147Voice_Synth.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUS147Voice_Synth.m; sourceTree = "<group>"; };
 		21BD98E2172B1F2600BFFBA6 /* MUS147Voice_Sample.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUS147Voice_Sample.h; sourceTree = "<group>"; };
 		21BD98E3172B1F2600BFFBA6 /* MUS147Voice_Sample.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUS147Voice_Sample.m; sourceTree = "<group>"; };
-		21BD98E4172B1F2600BFFBA6 /* Music147.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = Music147.aif; sourceTree = "<group>"; };
 		21C078F71746AF8800FBB7BA /* MUS147Event_Touch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUS147Event_Touch.h; sourceTree = "<group>"; };
 		21C078F81746AF8800FBB7BA /* MUS147Event_Touch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUS147Event_Touch.m; sourceTree = "<group>"; };
 		E9B92E2F173B22B10014404F /* MUS147Event.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUS147Event.h; sourceTree = "<group>"; };
@@ -200,6 +216,15 @@
 				216E865017481B3200670512 /* MUS147Voice_Sample_SF.m */,
 				21BD98DF172B1DA000BFFBA6 /* MUS147Voice_Synth.h */,
 				21BD98E0172B1DA000BFFBA6 /* MUS147Voice_Synth.m */,
+				144AD900175C11FF00306320 /* beat.aif */,
+				144AD901175C11FF00306320 /* call.aif */,
+				144AD902175C120000306320 /* crunk.aif */,
+				144AD903175C120000306320 /* hiphop.aif */,
+				144AD905175C120000306320 /* VEC1.aif */,
+				144AD906175C120000306320 /* VEC2.aif */,
+				144AD907175C120000306320 /* VEC3.aif */,
+				144AD908175C120000306320 /* VEC4.aif */,
+				144AD904175C120000306320 /* Music147.aif */,
 				218E9DCE170FDEDA00306268 /* Supporting Files */,
 			);
 			path = Music147_2013;
@@ -208,7 +233,6 @@
 		218E9DCE170FDEDA00306268 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				21BD98E4172B1F2600BFFBA6 /* Music147.aif */,
 				218E9DCF170FDEDA00306268 /* Music147_2013-Info.plist */,
 				218E9DD0170FDEDA00306268 /* InfoPlist.strings */,
 				218E9DD3170FDEDA00306268 /* main.m */,
@@ -277,7 +301,15 @@
 				218E9DDC170FDEDA00306268 /* Default@2x.png in Resources */,
 				218E9DDE170FDEDA00306268 /* Default-568h@2x.png in Resources */,
 				218E9DE4170FDEDA00306268 /* MUS147ViewController.xib in Resources */,
-				21BD98E6172B1F2700BFFBA6 /* Music147.aif in Resources */,
+				144AD909175C120000306320 /* beat.aif in Resources */,
+				144AD90A175C120000306320 /* call.aif in Resources */,
+				144AD90B175C120000306320 /* crunk.aif in Resources */,
+				144AD90C175C120000306320 /* hiphop.aif in Resources */,
+				144AD90D175C120000306320 /* Music147.aif in Resources */,
+				144AD90E175C120000306320 /* VEC1.aif in Resources */,
+				144AD90F175C120000306320 /* VEC2.aif in Resources */,
+				144AD910175C120000306320 /* VEC3.aif in Resources */,
+				144AD911175C120000306320 /* VEC4.aif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
