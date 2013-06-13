@@ -69,6 +69,9 @@ void MUS147AQBufferCallback(void *inUserData, AudioQueueRef inAQ, AudioQueueBuff
     //voice_samp_mem[0] = [[MUS147Voice_Sample_Mem alloc] init];
     
     //this is the background beat
+    //*****************************************************************
+    //Shivam Patel made this beat
+    //*****************************************************************
     
     beat = [[MUS147Voice_Sample_SF alloc] initWithFile:@"beat"];
     
