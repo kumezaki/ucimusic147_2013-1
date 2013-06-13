@@ -207,7 +207,7 @@ extern MUS147AQRecorder* aqr;
 
 -(IBAction)setBeat:(id)sender
 {
-    [aqp getBeat].speed = 2*(beatSlider.value) + .5;
+    [aqp getBeat].speed = beatSlider.value;
 }
 
 -(IBAction)setCutoff:(id)sender
@@ -218,8 +218,31 @@ extern MUS147AQRecorder* aqr;
 
 -(IBAction)setDelay:(id)sender
 {
-    [aqp setDelay:delaySlider.value];
-    NSLog(@"%f", delaySlider.value);
+    switch (delaySegment.selectedSegmentIndex) {
+        case 0:
+            [aqp setDelay:0.0*.8571/(beatSlider.value)];
+            break;
+        case 1:
+            [aqp setDelay:.25*.8571/(beatSlider.value)];
+            break;
+        case 2:
+            [aqp setDelay:0.5*.8571/(beatSlider.value)];
+            break;
+        case 3:
+            [aqp setDelay:1.0*.8571/(beatSlider.value)];
+            break;
+        case 4:
+            [aqp setDelay:2.0*.8571/(beatSlider.value)];
+            break;
+        default:
+            break;
+    }
+}
+
++(IBAction)segmentDelay:(id)sender
+{
+    
+    
 }
 
 -(IBAction)sampleRecStart:(id)sender

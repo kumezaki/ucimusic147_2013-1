@@ -34,6 +34,7 @@
     IBOutlet UIButton *button16;
     IBOutlet UISlider *beatSlider;
     IBOutlet UISwitch *beatSwitch;
+    IBOutlet UISegmentedControl *delaySegment;
 }
 
 // methods here
@@ -76,7 +77,6 @@
 -(IBAction)stopBeat:(id)sender;
 -(IBAction)setBeat:(id)sender;
 
-
 -(IBAction)setDelay:(id)sender;
 -(IBAction)setCutoff:(id)sender;
 
@@ -91,5 +91,7 @@
 -(IBAction)seqWave:(id)sender;
 
 -(IBAction)getCurrentLocation:(id)sender;
+
++(void)segmentDelay:(UISegmentedControl*)segment:(UISlider*)slider;
 
 @end
