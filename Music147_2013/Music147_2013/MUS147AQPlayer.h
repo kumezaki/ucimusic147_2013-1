@@ -12,6 +12,7 @@
 #import "MUS147AQShared.h"
 #import "MUS147Sequencer.h"
 #import "MUS147Voice.h"
+#import "MUS147View.h"
 
 @class MUS147Effect;
 @class MUS147Effect_BiQuad;
@@ -19,8 +20,8 @@
 // number of buffers used by AQ system for playback
 #define kNumBuffers_Playback     3
 
-// number of possible playback voices
-#define kNumVoices          1
+// number of possible playback voices... add 1 for the background beat
+#define kNumVoices          16
 
 // number of possible synth voices
 #define kNumVoices_Synth    4
@@ -39,11 +40,15 @@
     // the following were added in preparation for supporting pools of voices
     // for now, there is only one element in each array
     MUS147Voice* voice_samp_mem[1];
-    MUS147Voice* voice_samp_sf[1];
+    MUS147Voice* voice_samp_sf[kNumVoices];
     MUS147Voice* voice_synth_blit[kNumVoices_Synth];
     MUS147Voice* voice_synth_blitsaw[kNumVoices_Synth];
 
     MUS147Voice* voice[kNumVoices];
+    
+    MUS147Voice* beat;
+    
+    MUS147View* view[kNumVoices];
     
     MUS147Effect* effect[kNumEffects];
     
@@ -61,8 +66,12 @@
 -(MUS147Voice*)getVoice:(UInt8)pos;
 -(MUS147Voice*)getSynthVoice;
 -(MUS147Voice*)getRecordVoice;
+-(MUS147Voice*)getBeat;
 
 -(MUS147Effect_BiQuad*)getBiQuad;
+-(MUS147Effect*)getLimiter;
+-(MUS147Effect*)getDelay;
+-(void)setDelay:(Float64)value;
 
 -(void)reportElapsedFrames:(UInt32)num_frames;
 

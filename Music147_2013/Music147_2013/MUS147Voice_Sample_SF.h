@@ -22,4 +22,6 @@
     Float64			filePos;
 }
 
+-(id)initWithFile:(NSString*)filename;
+
 @end
